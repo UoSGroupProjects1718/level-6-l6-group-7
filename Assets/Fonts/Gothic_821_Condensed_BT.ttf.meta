@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1661b892dfccb0b43a84c8b0fb9537a7
+timeCreated: 1506537169
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Gothic821 Cn BT
+  fontNames:
+  - Gothic821 Cn BT
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
