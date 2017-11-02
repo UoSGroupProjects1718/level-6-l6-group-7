@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5eb09bbd21b43c7438642b55b82c9d10
+timeCreated: 1509632765
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lubalin Graph Book
+  fontNames:
+  - Lubalin Graph Book
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

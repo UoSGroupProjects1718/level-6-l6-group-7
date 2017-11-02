@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Splash Screen.unity
     guid: 90a0dc4081d1e5747949898256e3fac5
-  - enabled: 0
-    path: Assets/Scenes/Demo.unity
-    guid: 4d51550052dba6d4b9da02c2b1bbf5d1
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 6a431c3052bb43a4392b0737b0b80ce0
+  - enabled: 1
+    path: Assets/Scenes/Subject Selection.unity
+    guid: 4e4077780d1a0ba47b2810604dd6c55f
