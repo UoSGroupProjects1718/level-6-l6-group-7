@@ -7,6 +7,7 @@ public class SceneTransitioner : MonoBehaviour {
     private const float OpacityMax = 1.0f;
     private const float OpacityMin = 0.0f;
     private const float FadeTimeDefault = 1.5f;
+    private const float TimeBeforeFadeDefault = 0.0f;
     
     [Header("[ FADING IN ]")]
     [SerializeField] private bool _fadeIn;
@@ -47,12 +48,11 @@ public class SceneTransitioner : MonoBehaviour {
     /// <summary>
     /// Initiates fading and/or scene transitions depending using Unity inspector input.
     /// </summary>
-    private void Start()
+    private void Awake()
     {
         // Create the texture that will overlay the screen during scene transitions.
         _overlayTexture = CreateTexture(1, 1, Color.black);
-        _overlayColour.a = OpacityMin;
-
+        
         if (_fadeIn)
         {
             // Scene requires fading in, make the texture fully opaque and fade it in.
@@ -61,8 +61,7 @@ public class SceneTransitioner : MonoBehaviour {
         }
         if (_fadeOut)
         {
-            // Scene requires fading out, make the texture fully transparent, fade it out and transition.
-            _overlayColour.a = OpacityMin;
+            // Scene requires fading out, fade it out and transition.
             StartCoroutine(TransitionTo(_transitionsScene ? _sceneName : null, true, _fadeOutTimeInSeconds, _timeBeforeFadeOut)); 
         }
     }
@@ -88,13 +87,23 @@ public class SceneTransitioner : MonoBehaviour {
     /// Fades in the overlaying texture until it is opaque before transitioning to the specified scene.
     /// </summary>
     /// <param name="sceneName">Name of the scene to transition to.</param>
+    public void TransitionToScene(string sceneName)
+    {
+        StartCoroutine(TransitionTo(sceneName));
+    }
+
+    /// <summary>
+    /// Fades in the overlaying texture until it is opaque before transitioning to the specified scene.
+    /// </summary>
+    /// <param name="sceneName">Name of the scene to transition to.</param>
     /// <param name="fadeOut">Scene will be faded out before transitioning.</param>
     /// <param name="time">fade time in seconds.</param>
     /// <param name="timeBeforeFade">time before fading in seconds.</param>
     /// <returns></returns>
-    private IEnumerator TransitionTo(string sceneName, bool fadeOut = true, float time = FadeTimeDefault, float timeBeforeFade = 0.0f)
+    public IEnumerator TransitionTo(string sceneName, bool fadeOut = true, float time = FadeTimeDefault, float timeBeforeFade = TimeBeforeFadeDefault)
     {
         yield return new WaitForSeconds(timeBeforeFade);
+        _overlayColour.a = OpacityMin;
         if (!fadeOut)
         {
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
