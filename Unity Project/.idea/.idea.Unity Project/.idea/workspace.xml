@@ -15,11 +15,11 @@
       <file leaf-file-name="MathSubjectButton.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="44">
+              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
               <folding>
-                <marker date="1510757849773" expanded="true" signature="52:236" ph="{...}" />
-                <marker date="1510757849773" expanded="true" signature="88:234" ph="{...}" />
+                <marker date="1510762565452" expanded="true" signature="72:531" ph="{...}" />
+                <marker date="1510762565452" expanded="true" signature="223:529" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -28,11 +28,11 @@
       <file leaf-file-name="EnglishSubjectButton.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="176">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="82" />
               <folding>
-                <marker date="1510757845183" expanded="true" signature="55:218" ph="{...}" />
-                <marker date="1510757845183" expanded="true" signature="88:216" ph="{...}" />
+                <marker date="1510762555399" expanded="true" signature="75:496" ph="{...}" />
+                <marker date="1510762555399" expanded="true" signature="215:494" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -41,11 +41,11 @@
       <file leaf-file-name="ScienceSubjectButton.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="154">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding>
-                <marker date="1510757845257" expanded="true" signature="55:218" ph="{...}" />
-                <marker date="1510757845257" expanded="true" signature="88:216" ph="{...}" />
+                <marker date="1510762555433" expanded="true" signature="75:496" ph="{...}" />
+                <marker date="1510762555433" expanded="true" signature="215:494" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,13 +54,13 @@
       <file leaf-file-name="SubjectButtonPress.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="352">
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
-                <marker date="1510758215204" expanded="true" signature="6:74" ph="..." />
-                <marker date="1510758215204" expanded="true" signature="133:618" ph="{...}" />
-                <marker date="1510758215204" expanded="true" signature="359:582" ph="{...}" />
-                <marker date="1510758215204" expanded="true" signature="410:450" ph="{...}" />
+                <marker date="1510762577363" expanded="true" signature="6:74" ph="..." />
+                <marker date="1510762577363" expanded="true" signature="133:617" ph="{...}" />
+                <marker date="1510762577363" expanded="true" signature="358:581" ph="{...}" />
+                <marker date="1510762577363" expanded="true" signature="409:449" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs" />
       </list>
@@ -91,8 +91,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-61" />
-    <option name="y" value="344" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -214,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510756744484</updated>
-      <workItem from="1510756750723" duration="2347000" />
+      <workItem from="1510756750723" duration="5409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2347000" />
+    <option name="totallyTimeSpent" value="5409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,7 +231,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-61" y="344" width="1936" height="1066" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -267,48 +267,48 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding>
+            <marker date="1510762565452" expanded="true" signature="72:531" ph="{...}" />
+            <marker date="1510762565452" expanded="true" signature="223:529" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="82" />
           <folding>
-            <marker date="1510757845183" expanded="true" signature="55:218" ph="{...}" />
-            <marker date="1510757845183" expanded="true" signature="88:216" ph="{...}" />
+            <marker date="1510762555399" expanded="true" signature="75:496" ph="{...}" />
+            <marker date="1510762555399" expanded="true" signature="215:494" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1510757845257" expanded="true" signature="55:218" ph="{...}" />
-            <marker date="1510757845257" expanded="true" signature="88:216" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <marker date="1510757849773" expanded="true" signature="52:236" ph="{...}" />
-            <marker date="1510757849773" expanded="true" signature="88:234" ph="{...}" />
+            <marker date="1510762555433" expanded="true" signature="75:496" ph="{...}" />
+            <marker date="1510762555433" expanded="true" signature="215:494" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="352">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
-            <marker date="1510758215204" expanded="true" signature="6:74" ph="..." />
-            <marker date="1510758215204" expanded="true" signature="133:618" ph="{...}" />
-            <marker date="1510758215204" expanded="true" signature="359:582" ph="{...}" />
-            <marker date="1510758215204" expanded="true" signature="410:450" ph="{...}" />
+            <marker date="1510762577363" expanded="true" signature="6:74" ph="..." />
+            <marker date="1510762577363" expanded="true" signature="133:617" ph="{...}" />
+            <marker date="1510762577363" expanded="true" signature="358:581" ph="{...}" />
+            <marker date="1510762577363" expanded="true" signature="409:449" ph="{...}" />
           </folding>
         </state>
       </provider>
