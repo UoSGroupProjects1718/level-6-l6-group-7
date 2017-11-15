@@ -288,6 +288,8 @@ MonoBehaviour:
   GameObjectsToHide:
   - {fileID: 1953254463}
   - {fileID: 2099831180}
+  _mathOverlay: {fileID: 1532006903}
+  _scienceOverlay: {fileID: 1058642928}
 --- !u!1 &1058642928
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1137,8 @@ MonoBehaviour:
   GameObjectsToHide:
   - {fileID: 1045720851}
   - {fileID: 2099831180}
+  _englishOverlay: {fileID: 1086523749}
+  _scienceOverlay: {fileID: 1058642928}
 --- !u!1 &2099831180
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1277,8 @@ MonoBehaviour:
   GameObjectsToHide:
   - {fileID: 1953254463}
   - {fileID: 1045720851}
+  _mathOverlay: {fileID: 1532006903}
+  _englishOverlay: {fileID: 1086523749}
 --- !u!1 &2144110738
 GameObject:
   m_ObjectHideFlags: 0
