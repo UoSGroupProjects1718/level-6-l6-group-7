@@ -227,7 +227,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1045720856}
-        m_MethodName: OnPress
+        m_MethodName: PerformAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -280,12 +280,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1045720851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da90681a105f2404095d7064d38b18e2, type: 3}
+  m_Script: {fileID: 11500000, guid: cf14d6191b9cc6449a654601d299b5c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OverlayImage: {fileID: 1086523751}
-  SceneTransitioner: {fileID: 661909166}
-  GameObjectsToHide:
+  _timesPressable: 1
+  SubjectOverlayImage: {fileID: 1086523751}
+  _overlayTransitionAnimationName: Expanding
+  _sceneTransitioner: {fileID: 661909166}
+  _secondsBeforeTransition: 1.5
+  _destinationSceneName: Subject Selection
+  _gameObjectsToDeactivate:
   - {fileID: 1953254463}
   - {fileID: 2099831180}
   _mathOverlay: {fileID: 1532006903}
@@ -1076,7 +1080,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1953254468}
-        m_MethodName: OnPress
+        m_MethodName: PerformAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1129,12 +1133,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1953254463}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3fe5f57c0627446bfd7f21f7c657cc, type: 3}
+  m_Script: {fileID: 11500000, guid: eb286d9aaa3dac744b5a707a3ae6eafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OverlayImage: {fileID: 1532006905}
-  SceneTransitioner: {fileID: 661909166}
-  GameObjectsToHide:
+  _timesPressable: 1
+  SubjectOverlayImage: {fileID: 1532006905}
+  _overlayTransitionAnimationName: Expanding
+  _sceneTransitioner: {fileID: 661909166}
+  _secondsBeforeTransition: 1.5
+  _destinationSceneName: Subject Selection
+  _gameObjectsToDeactivate:
   - {fileID: 1045720851}
   - {fileID: 2099831180}
   _englishOverlay: {fileID: 1086523749}
@@ -1216,7 +1224,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2099831185}
-        m_MethodName: OnPress
+        m_MethodName: PerformAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1269,12 +1277,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 2099831180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f79898cdb33e6f439866e38e096fc27, type: 3}
+  m_Script: {fileID: 11500000, guid: df1a1373ab9307342ac3b935199c98f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OverlayImage: {fileID: 1058642930}
-  SceneTransitioner: {fileID: 661909166}
-  GameObjectsToHide:
+  _timesPressable: 1
+  SubjectOverlayImage: {fileID: 1058642930}
+  _overlayTransitionAnimationName: Expanding
+  _sceneTransitioner: {fileID: 661909166}
+  _secondsBeforeTransition: 1.5
+  _destinationSceneName: Subject Selection
+  _gameObjectsToDeactivate:
   - {fileID: 1953254463}
   - {fileID: 1045720851}
   _mathOverlay: {fileID: 1532006903}
