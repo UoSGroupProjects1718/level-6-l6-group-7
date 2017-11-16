@@ -7,6 +7,9 @@ public class ScienceButtonPressedEvent : SubjectButtonPressedEvent
 	
 	protected override void PerformTransition()
 	{
+		GameManager gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+		gameManager.SelectedSubject = gameManager.Science;
+		
 		_mathOverlay.GetComponent<Animator>().SetBool("HideFromScience", true);
 		_englishOverlay.GetComponent<Animator>().SetBool("HideFromScience", true);
 	}

@@ -7,6 +7,9 @@ public class EnglishButtonPressedEvent : SubjectButtonPressedEvent
 	
 	protected override void PerformTransition()
 	{
+		GameManager gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+		gameManager.SelectedSubject = gameManager.English;
+		
 		_mathOverlay.GetComponent<Animator>().SetBool("HideFromEnglish", true);
 		_scienceOverlay.GetComponent<Animator>().SetBool("HideFromEnglish", true);
 	}
