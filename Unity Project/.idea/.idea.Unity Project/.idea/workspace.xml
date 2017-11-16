@@ -11,56 +11,105 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MathSubjectButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-              <folding>
-                <marker date="1510762565452" expanded="true" signature="72:531" ph="{...}" />
-                <marker date="1510762565452" expanded="true" signature="223:529" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnglishSubjectButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="82" />
-              <folding>
-                <marker date="1510762555399" expanded="true" signature="75:496" ph="{...}" />
-                <marker date="1510762555399" expanded="true" signature="215:494" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScienceSubjectButton.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MathButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathButtonPressedEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
               <folding>
-                <marker date="1510762555433" expanded="true" signature="75:496" ph="{...}" />
-                <marker date="1510762555433" expanded="true" signature="215:494" ph="{...}" />
+                <marker date="1510842491537" expanded="true" signature="83:422" ph="{...}" />
+                <marker date="1510842491537" expanded="true" signature="248:420" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubjectButtonPress.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs">
+      <file leaf-file-name="EnglishButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnglishButtonPressedEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <marker date="1510762577363" expanded="true" signature="6:74" ph="..." />
-                <marker date="1510762577363" expanded="true" signature="133:617" ph="{...}" />
-                <marker date="1510762577363" expanded="true" signature="358:581" ph="{...}" />
-                <marker date="1510762577363" expanded="true" signature="409:449" ph="{...}" />
+                <marker date="1510842800924" expanded="true" signature="86:399" ph="{...}" />
+                <marker date="1510842800924" expanded="true" signature="240:397" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScienceButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceButtonPressedEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <marker date="1510842841579" expanded="true" signature="86:399" ph="{...}" />
+                <marker date="1510842841579" expanded="true" signature="240:397" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonPressedEvent.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPressedEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding>
+                <marker date="1510842640812" expanded="true" signature="76:373" ph="{...}" />
+                <marker date="1510842640812" expanded="true" signature="237:371" ph="{...}" />
+                <marker date="1510842640812" expanded="true" signature="288:365" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubjectButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPressedEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <folding>
+                <marker date="1510842653038" expanded="true" signature="6:74" ph="..." />
+                <marker date="1510842653038" expanded="true" signature="135:1176" ph="{...}" />
+                <marker date="1510842653038" expanded="true" signature="598:697" ph="{...}" />
+                <marker date="1510842653038" expanded="true" signature="654:694" ph="{...}" />
+                <marker date="1510842653038" expanded="true" signature="742:749" ph="{...}" />
+                <marker date="1510842653038" expanded="true" signature="790:1174" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SceneTransitioner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneTransitioner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <marker date="1510837895464" expanded="false" signature="6:79" ph="..." />
+                <marker date="1510837895464" expanded="true" signature="128:4809" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="869:1246" ph="/// Creates a &lt;c&gt;Texture2D&lt;/c&gt; of the specified size and colour. ... " />
+                <marker date="1510837895464" expanded="true" signature="1328:1667" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="1464:1612" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="1526:1602" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="1673:1794" ph="/// Initiates fading and/or scene transitions depending using Unity inspector input. ... " />
+                <marker date="1510837895464" expanded="true" signature="1819:2480" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="2000:2231" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="2253:2474" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="2486:2726" ph="/// Fades the opacity of the overlaying texture to the given value over a period of time. ... " />
+                <marker date="1510837895464" expanded="true" signature="2792:3079" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="2932:3043" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="3085:3297" ph="/// Fades in the overlaying texture until it is opaque before transitioning to the specified scene. ... " />
+                <marker date="1510837895464" expanded="true" signature="3349:3410" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="3416:3873" ph="/// Fades in the overlaying texture until it is opaque before transitioning to the specified scene. ... " />
+                <marker date="1510837895464" expanded="true" signature="4024:4550" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="4148:4262" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="4353:4424" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="4455:4544" ph="{...}" />
+                <marker date="1510837895464" expanded="true" signature="4556:4640" ph="/// Draws the overlaying texture to the screen. ... " />
+                <marker date="1510837895464" expanded="true" signature="4665:4802" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,18 +118,26 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScienceButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnglishButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MathButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneTransitioner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransitioner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MathButtonPressedEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonPressedEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SubjectButtonPressedEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnglishButtonPressedEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScienceButtonPressedEvent.cs" />
       </list>
     </option>
   </component>
@@ -111,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -163,7 +221,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,11 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510756744484</updated>
       <workItem from="1510756750723" duration="5409000" />
+      <workItem from="1510836611001" duration="4619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5409000" />
+    <option name="totallyTimeSpent" value="10028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -235,24 +293,24 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -269,11 +327,71 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnglishSubjectButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathSubjectButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
-            <marker date="1510762565452" expanded="true" signature="72:531" ph="{...}" />
-            <marker date="1510762565452" expanded="true" signature="223:529" ph="{...}" />
+            <marker date="1510842653038" expanded="true" signature="6:74" ph="..." />
+            <marker date="1510842653038" expanded="true" signature="135:1176" ph="{...}" />
+            <marker date="1510842653038" expanded="true" signature="598:697" ph="{...}" />
+            <marker date="1510842653038" expanded="true" signature="654:694" ph="{...}" />
+            <marker date="1510842653038" expanded="true" signature="742:749" ph="{...}" />
+            <marker date="1510842653038" expanded="true" signature="790:1174" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -282,33 +400,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="82" />
-          <folding>
-            <marker date="1510762555399" expanded="true" signature="75:496" ph="{...}" />
-            <marker date="1510762555399" expanded="true" signature="215:494" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceSubjectButton.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScienceButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding>
-            <marker date="1510762555433" expanded="true" signature="75:496" ph="{...}" />
-            <marker date="1510762555433" expanded="true" signature="215:494" ph="{...}" />
+            <marker date="1510842841579" expanded="true" signature="86:399" ph="{...}" />
+            <marker date="1510842841579" expanded="true" signature="240:397" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SubjectButtonPress.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SceneTransitioner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <marker date="1510762577363" expanded="true" signature="6:74" ph="..." />
-            <marker date="1510762577363" expanded="true" signature="133:617" ph="{...}" />
-            <marker date="1510762577363" expanded="true" signature="358:581" ph="{...}" />
-            <marker date="1510762577363" expanded="true" signature="409:449" ph="{...}" />
+            <marker date="1510837895464" expanded="false" signature="6:79" ph="..." />
+            <marker date="1510837895464" expanded="true" signature="128:4809" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="869:1246" ph="/// Creates a &lt;c&gt;Texture2D&lt;/c&gt; of the specified size and colour. ... " />
+            <marker date="1510837895464" expanded="true" signature="1328:1667" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="1464:1612" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="1526:1602" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="1673:1794" ph="/// Initiates fading and/or scene transitions depending using Unity inspector input. ... " />
+            <marker date="1510837895464" expanded="true" signature="1819:2480" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="2000:2231" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="2253:2474" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="2486:2726" ph="/// Fades the opacity of the overlaying texture to the given value over a period of time. ... " />
+            <marker date="1510837895464" expanded="true" signature="2792:3079" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="2932:3043" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="3085:3297" ph="/// Fades in the overlaying texture until it is opaque before transitioning to the specified scene. ... " />
+            <marker date="1510837895464" expanded="true" signature="3349:3410" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="3416:3873" ph="/// Fades in the overlaying texture until it is opaque before transitioning to the specified scene. ... " />
+            <marker date="1510837895464" expanded="true" signature="4024:4550" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="4148:4262" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="4353:4424" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="4455:4544" ph="{...}" />
+            <marker date="1510837895464" expanded="true" signature="4556:4640" ph="/// Draws the overlaying texture to the screen. ... " />
+            <marker date="1510837895464" expanded="true" signature="4665:4802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MathButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1510842491537" expanded="true" signature="83:422" ph="{...}" />
+            <marker date="1510842491537" expanded="true" signature="248:420" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnglishButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1510842800924" expanded="true" signature="86:399" ph="{...}" />
+            <marker date="1510842800924" expanded="true" signature="240:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <marker date="1510842640812" expanded="true" signature="76:373" ph="{...}" />
+            <marker date="1510842640812" expanded="true" signature="237:371" ph="{...}" />
+            <marker date="1510842640812" expanded="true" signature="288:365" ph="{...}" />
           </folding>
         </state>
       </provider>

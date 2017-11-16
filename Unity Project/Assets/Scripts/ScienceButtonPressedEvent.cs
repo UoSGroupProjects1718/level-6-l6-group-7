@@ -1,14 +1,13 @@
 ﻿using UnityEngine;
 
-public class ScienceSubjectButton : SubjectButtonPress {
+public class ScienceButtonPressedEvent : SubjectButtonPressedEvent
+{
 	[SerializeField] private GameObject _mathOverlay;
 	[SerializeField] private GameObject _englishOverlay;
 	
-	public override void OnPress()
+	protected override void PerformTransition()
 	{
 		_mathOverlay.GetComponent<Animator>().SetBool("HideFromScience", true);
 		_englishOverlay.GetComponent<Animator>().SetBool("HideFromScience", true);
-		InitiateTransitionAnimation();
-		StartCoroutine(SceneTransitioner.TransitionTo("Subject Selection", true, 1.5f, 1.5f));
 	}
-}	
+}
