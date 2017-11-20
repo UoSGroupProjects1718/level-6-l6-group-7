@@ -288,7 +288,7 @@ MonoBehaviour:
   _overlayTransitionAnimationName: Expanding
   _sceneTransitioner: {fileID: 661909166}
   _secondsBeforeTransition: 1.5
-  _destinationSceneName: Subject Selection
+  _destinationSceneName: Difficulty Selection
   _gameObjectsToDeactivate:
   - {fileID: 1953254463}
   - {fileID: 2099831180}
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   _overlayTransitionAnimationName: Expanding
   _sceneTransitioner: {fileID: 661909166}
   _secondsBeforeTransition: 1.5
-  _destinationSceneName: Subject Selection
+  _destinationSceneName: Difficulty Selection
   _gameObjectsToDeactivate:
   - {fileID: 1045720851}
   - {fileID: 2099831180}
@@ -1285,7 +1285,7 @@ MonoBehaviour:
   _overlayTransitionAnimationName: Expanding
   _sceneTransitioner: {fileID: 661909166}
   _secondsBeforeTransition: 1.5
-  _destinationSceneName: Subject Selection
+  _destinationSceneName: Difficulty Selection
   _gameObjectsToDeactivate:
   - {fileID: 1953254463}
   - {fileID: 1045720851}
