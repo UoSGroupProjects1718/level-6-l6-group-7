@@ -271,7 +271,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 120187610}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1674448660}
+        m_MethodName: TransitionToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Chimp Addition
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &120187610
@@ -653,7 +664,7 @@ Prefab:
     - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
         type: 2}
       propertyPath: _fadeInTimeInSeconds
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6599befd1d6ae49a2e95b94c2be516, type: 2}

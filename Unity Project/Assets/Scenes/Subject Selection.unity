@@ -973,7 +973,7 @@ Prefab:
     - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
         type: 2}
       propertyPath: _fadeInTimeInSeconds
-      value: 1.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
         type: 2}
