@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Chimp Addition.unity
+- path: Assets/Scenes/Subject Selection.unity
   isLoaded: 1
   isActive: 1
