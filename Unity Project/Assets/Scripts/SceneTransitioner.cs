@@ -6,7 +6,7 @@ public class SceneTransitioner : MonoBehaviour {
     
     private const float OpacityMax = 1.0f;
     private const float OpacityMin = 0.0f;
-    public const float FadeTimeDefault = 0.75f;
+    public const float FadeTimeDefault = 1.0f;
     public const float TimeBeforeFadeDefault = 0.0f;
     
     [Header("[ FADING IN ]")]
