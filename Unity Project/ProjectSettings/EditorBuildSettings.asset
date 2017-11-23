@@ -6,17 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Splash Screen.unity
+    path: Assets/Scenes/Splash Screen/Splash Screen.unity
     guid: 90a0dc4081d1e5747949898256e3fac5
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 6a431c3052bb43a4392b0737b0b80ce0
-  - enabled: 1
-    path: Assets/Scenes/Subject Selection.unity
+    path: Assets/Scenes/Subject Selection/Subject Selection.unity
     guid: 4e4077780d1a0ba47b2810604dd6c55f
   - enabled: 1
-    path: Assets/Scenes/Difficulty Selection.unity
+    path: Assets/Scenes/Difficulty Selection/Difficulty Selection.unity
     guid: 7d73d9ac51a6e694db79f64bf28b663f
   - enabled: 1
-    path: Assets/Scenes/Chimp Addition.unity
+    path: Assets/Scenes/Math Chimp Challenge/Math Chimp Challenge.unity
     guid: 145ea9cb643fd3e409f4d774c809d668

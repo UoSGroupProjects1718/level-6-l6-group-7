@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using General.Scripts;
+using UnityEngine;
 
 public class MathButtonPressedEvent : SubjectButtonPressedEvent
 {
@@ -8,7 +9,7 @@ public class MathButtonPressedEvent : SubjectButtonPressedEvent
     protected override void PerformTransition()
     {
         GameManager gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-        gameManager.SelectedSubject = gameManager.Math;
+        gameManager.ActiveSubject = gameManager.Math;
         
         _englishOverlay.GetComponent<Animator>().SetBool(SubjectName, true);
         _scienceOverlay.GetComponent<Animator>().SetBool(SubjectName, true);
