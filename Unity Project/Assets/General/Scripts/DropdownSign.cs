@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace General.Scripts
 {
 	public class DropdownSign : MonoBehaviour
 	{
+		private const int AnimIdleState = 0;
 		private const int AnimDroppingState = 1;
 		private const int AnimRisingState = 2;
 
@@ -14,20 +16,28 @@ namespace General.Scripts
 
 		private const float IdleWaitTime = 0.5f;
 
-		private const float DefaultHangTime = 2.5f;
-		private const float DefaultTimeBeforeDescent = 2.5f;
+		public const float DefaultHangTime = 2.5f;
+		public const float DefaultTimeBeforeDescent = 0.5f;
 
 		[SerializeField] private bool _dropsDownInitially;
+		[SerializeField] private Text _text;
 		
 		private Animator _animator;
 
 		public void Awake()
 		{
 			_animator = GetComponent<Animator>();
-			if (_dropsDownInitially)
+			if (_dropsDownInitially && GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired)
 			{
+				GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired = false;
 				Dropdown();
 			}
+		}
+		
+		public void Dropdown(float timeBeforeDescent, float hangTime, string text)
+		{
+			_text.text = text;	
+			StartCoroutine(Display(timeBeforeDescent, hangTime));
 		}
 
 		public void Dropdown(float timeBeforeDescent, float hangTime)
@@ -44,7 +54,17 @@ namespace General.Scripts
 		{
 			StartCoroutine(Display(DefaultTimeBeforeDescent, DefaultHangTime));
 		}
-	
+
+		public bool IsIdle()
+		{
+			return _animator.GetCurrentAnimatorStateInfo(0).IsName(AnimIdle);
+		}
+
+		public bool IsRising()
+		{
+			return _animator.GetInteger(AnimParameter) == AnimRisingState;
+		}
+		
 		private IEnumerator Display(float timeBeforeDescent, float hangTime)
 		{
 			yield return new WaitForSeconds(timeBeforeDescent);
@@ -64,6 +84,13 @@ namespace General.Scripts
 			yield return new WaitForSeconds(hangTime);
 
 			_animator.SetInteger(AnimParameter, AnimRisingState);
+			
+			while(!_animator.GetCurrentAnimatorStateInfo(0).IsName(AnimIdle))
+			{
+				yield return new WaitForSeconds(IdleWaitTime);
+			}
+			
+			_animator.SetInteger(AnimParameter, AnimIdleState);
 		}
 	}
 }
