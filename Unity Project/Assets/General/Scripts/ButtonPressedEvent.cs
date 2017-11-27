@@ -3,16 +3,16 @@
 public abstract class ButtonPressedEvent : MonoBehaviour
 {
     [SerializeField] private int _timesPressable;
-    private int _timesPressed;
+    protected int TimesPressed;
 
     protected abstract void ButtonAction();
 
     public void PerformAction()
     {
-        if (_timesPressed < _timesPressable)
+        if (TimesPressed < _timesPressable)
         {
             ButtonAction();
-            _timesPressed++;
+            TimesPressed++;
         }
     }
 }

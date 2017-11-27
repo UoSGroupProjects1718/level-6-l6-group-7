@@ -8,6 +8,8 @@ namespace General.Scripts
 	{
 		private static GameManager _instance;
 
+		public int ChallengesPerSet = 5;
+		
 		public readonly List<string> EnglishChallengeSceneNames = new List<string>();
 		public readonly List<string> MathChallengeSceneNames = new List<string>() { "Math Chimp Challenge"};
 		public readonly List<string> ScienceChallengeSceneNames = new List<string>();
@@ -19,6 +21,7 @@ namespace General.Scripts
 		public Subject ActiveSubject = null;
 		public int? ActiveChallengeDifficulty = null;
 		public int? ActiveChallengeNumber = null;
+		public bool TutorialRequired = false;
 		
 		public static GameManager Instance
 		{
