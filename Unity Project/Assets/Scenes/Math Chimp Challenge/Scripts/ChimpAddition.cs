@@ -36,10 +36,8 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
             
             while (!dropdownSign.IsRising())
             {
-                Debug.Log("NOT RISING");
                 yield return new WaitForSeconds(0.25f);
             }
-            Debug.Log("RISING");
 
             if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
             {
