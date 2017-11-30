@@ -12,6 +12,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+841420938f3349d2f61579bffba25317 Assembly-CSharp.dll:Scenes.Math_Chimp_Challenge.Scripts.ChimpAdditionAnswerButtonPressedEvent
 701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Difficulty_Selection.Scripts.ChimpButtonPressedEvent
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ladybird
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
@@ -142,4 +143,5 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 63016f664971097b70d1f73f927876d6 Assembly-CSharp.dll:.SubjectButtonPressedEvent
-841420938f3349d2f61579bffba25317 Assembly-CSharp.dll:Scenes.Math_Chimp_Challenge.Scripts.ChimpAdditionAnswerButtonPressedEvent
+113f45b7f52149b985dacfaaf4367bf9 Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.Sticker
+c3c62d9825c1420b29726e3ce7e46d79 Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.StickerSlot

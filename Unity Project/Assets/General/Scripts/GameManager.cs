@@ -8,7 +8,7 @@ namespace General.Scripts
 	{
 		private static GameManager _instance;
 
-		public int ChallengesPerSet = 5;
+		public int ChallengesPerSet = 2;
 		
 		public readonly List<string> EnglishChallengeSceneNames = new List<string>();
 		public readonly List<string> MathChallengeSceneNames = new List<string>() { "Math Chimp Challenge"};

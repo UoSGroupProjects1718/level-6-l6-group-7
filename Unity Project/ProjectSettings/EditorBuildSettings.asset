@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Math Chimp Challenge/Math Chimp Challenge.unity
     guid: 145ea9cb643fd3e409f4d774c809d668
+  - enabled: 1
+    path: Assets/Scenes/Sticker Board/Sticker Board.unity
+    guid: a2b26b6fdd0897c49a4d8bfc192cbdf0

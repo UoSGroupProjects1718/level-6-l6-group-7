@@ -41,7 +41,7 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
 
             if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
             {
-                sceneTransitioner.TransitionToScene("Subject Selection");
+                sceneTransitioner.TransitionToScene("Sticker Board");
                 yield break;
             }
             

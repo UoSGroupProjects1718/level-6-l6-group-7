@@ -345,6 +345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf04d07bcd817c74d9d31eb1b949871f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChallengesPerSet: 1
+  TutorialRequired: 0
 --- !u!4 &917524968
 Transform:
   m_ObjectHideFlags: 0
