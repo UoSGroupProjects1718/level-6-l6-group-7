@@ -20,3 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sticker Board/Sticker Board.unity
     guid: a2b26b6fdd0897c49a4d8bfc192cbdf0
+  - enabled: 1
+    path: Assets/Scenes/Sticker Reward/Sticker Reward.unity
+    guid: 5bf733dd5db21114599c61ebf9bb0003

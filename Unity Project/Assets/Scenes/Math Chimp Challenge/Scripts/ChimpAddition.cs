@@ -20,18 +20,18 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
 
         public IEnumerator CheckAnswer(int value)
         {
-            var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+            var gameManager = GameManager.Instance;
             var dropdownSign = GameObject.Find("Dropdown Sign").GetComponent<DropdownSign>();
             var sceneTransitioner = GameObject.Find("Scene Transitioner").GetComponent<SceneTransitioner>();
             
             if (value == _correctAnswer)
             {
                 gameManager.ActiveChallengeNumber++;
-                dropdownSign.Dropdown(0.0f, 1.5f, "THAT'S CORRECT! (" + gameManager.ActiveChallengeNumber + "/5)");
+                dropdownSign.Dropdown(0.0f, 1.5f, $"CORRECT! ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");   
             }
             else
-            {
-                dropdownSign.Dropdown(0.0f, 1.5f, "OOPS, TRY AGAIN (" + gameManager.ActiveChallengeNumber + "/5)");   
+            {                
+                dropdownSign.Dropdown(0.0f, 1.5f, $"OOPS, TRY AGAIN ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");   
             }
             
             while (!dropdownSign.IsRising())
@@ -40,8 +40,8 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
             }
 
             if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
-            {
-                sceneTransitioner.TransitionToScene("Sticker Board");
+            {               
+                sceneTransitioner.TransitionToScene("Sticker Reward");
                 yield break;
             }
             
