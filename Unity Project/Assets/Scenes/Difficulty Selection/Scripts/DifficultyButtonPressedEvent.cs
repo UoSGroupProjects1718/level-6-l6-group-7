@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections;
+using System.Linq;
 using General.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
@@ -16,9 +17,26 @@ namespace Scenes.Difficulty_Selection.Scripts
             GetComponent<Button>().interactable = false;
         }
         
+        private IEnumerator FadeAudioSource(AudioSource audioSource)
+        {
+            float elapsedTime = 0;
+            float currentVolume = audioSource.volume;
+            
+            Debug.Log("DOING IT");
+ 
+            while(elapsedTime < 2.0f) {
+                elapsedTime += Time.deltaTime;
+                AudioListener.volume = Mathf.Lerp(currentVolume, 0, elapsedTime / 2.0f);
+                yield return null;
+            }
+            
+            audioSource.Stop();
+        }
+        
         protected override void ButtonAction()
         {		
             var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+            StartCoroutine(FadeAudioSource(GameObject.Find("Game Manager").GetComponent<AudioSource>()));
             gameManager.ActiveChallengeNumber = 0;
 
             string destinationSceneName = null;
