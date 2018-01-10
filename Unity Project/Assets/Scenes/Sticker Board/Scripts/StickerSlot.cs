@@ -11,44 +11,25 @@ namespace Scenes.Sticker_Board.Scripts
 		[SerializeField] private int _difficulty;
 		[SerializeField] private Sprite _sticker;
 
+		private GameManager _gameManager;
+
 		private void Start()
 		{
-			var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();			
-
-			if ((_subject == gameManager.Math.Name && gameManager.Math.DifficultiesComplete.Contains(_difficulty))
-				|| (_subject == gameManager.English.Name && gameManager.English.DifficultiesComplete.Contains(_difficulty))
-				    || (_subject == gameManager.Science.Name && gameManager.Science.DifficultiesComplete.Contains(_difficulty)))
-			{
+			_gameManager = GameManager.Instance;
+			if (_gameManager.ActiveSubject.Name == _subject && _gameManager.ActiveSubject.DifficultiesComplete.Contains(_difficulty))
 				GetComponent<Image>().sprite = _sticker;
-			}
 		}
 
-		private void OnTriggerStay2D(Collider2D other)
+		private void OnTriggerStay2D(Collider2D collision)
 		{
-			Sticker sticker = null;
-			if ((sticker = other.gameObject.GetComponent<Sticker>()) != null)
-			{
-				if (!sticker.Dragging && sticker.Subject == _subject && sticker.Difficulty == _difficulty)
-				{
-					var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-
-					if (gameManager.Math.Name == _subject)
-					{
-						gameManager.Math.DifficultiesComplete.Add(_difficulty);
-					}
-					else if (gameManager.English.Name == _subject)
-					{
-						gameManager.English.DifficultiesComplete.Add(_difficulty);
-					}
-					else if (gameManager.Science.Name == _subject)
-					{
-						gameManager.Science.DifficultiesComplete.Add(_difficulty);
-					}
-					
-					GetComponent<Image>().sprite = _sticker;
-					Destroy(other.gameObject);
-				}
-			}
+			var draggableSticker = collision.GetComponent<DraggableSticker>();
+			if (draggableSticker == null || draggableSticker.IsBeingDragged() || draggableSticker.Difficulty != _difficulty || draggableSticker.Subject.Name != _subject)
+				return;
+			// TODO: This may need to use gameManager instead of draggableSticker (possibly different references).
+			draggableSticker.Subject.DifficultiesComplete.Add(_difficulty);
+			GetComponent<Image>().sprite = _sticker;
+			Destroy(collision.gameObject);
+			GameObject.Find("Back Button").GetComponent<Button>().interactable = true;
 		}
 	}
 }

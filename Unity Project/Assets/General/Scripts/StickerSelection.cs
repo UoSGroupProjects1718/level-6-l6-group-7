@@ -17,9 +17,15 @@ namespace General.Scripts
         [SerializeField] private Sprite _scienceGorillaSticker;
         [SerializeField] private Sprite _scienceOrangutanSticker;
 
+        public int? ChallengeDifficulty;
+        public Subject ChallengeSubject;
+
         private void Start()
         {
             var gameManager = GameManager.Instance;
+            ChallengeDifficulty = gameManager.ActiveChallengeDifficulty;
+            ChallengeSubject = gameManager.ActiveSubject;
+            
             if (gameManager.ActiveSubject == gameManager.Math)
             {
                 switch (gameManager.ActiveChallengeDifficulty)
@@ -64,7 +70,8 @@ namespace General.Scripts
                         GetComponent<Image>().sprite = _scienceOrangutanSticker;
                         break;
                 }
-            } 
+            }
+
         }
     }
 }

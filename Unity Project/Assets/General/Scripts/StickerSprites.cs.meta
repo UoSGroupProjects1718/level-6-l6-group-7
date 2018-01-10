@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 78da9c4be6214082929cad87464bc6cd
+timeCreated: 1512054112
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MathChimp: {fileID: 21300000, guid: bb08bed9060891e4dac0630adf77c8b2, type: 3}
+  - MathGorilla: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - MathOrangutan: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - EnglishChimp: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - EnglishGorilla: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - EnglishOrangutan: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - ScienceChimp: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - ScienceGorilla: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  - ScienceOrangutan: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

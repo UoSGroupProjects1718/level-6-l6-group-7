@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace Scenes.Sticker_Board.Scripts
 {
-	public class Sticker : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+	public class Sticker : MonoBehaviour
 	{
 		public string Subject;
 		public int Difficulty;
@@ -40,26 +40,6 @@ namespace Scenes.Sticker_Board.Scripts
 			{
 				GetComponent<Image>().sprite = _stickerImages[6 + Difficulty];
 			}
-		}
-		
-		public void OnBeginDrag(PointerEventData eventData)
-		{
-			Dragging = true;
-			Debug.Log(Dragging);
-		}
-
-		public void OnDrag(PointerEventData eventData)
-		{
-			GetComponent<RectTransform>().position = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-			GetComponent<RectTransform>().localPosition = new Vector3(GetComponent<RectTransform>().localPosition.x,
-				GetComponent<RectTransform>().localPosition.y,
-				0);
- 		}
-
-		public void OnEndDrag(PointerEventData eventData)
-		{
-			Dragging = false;
-			Debug.Log(Dragging);
 		}
 	}
 }

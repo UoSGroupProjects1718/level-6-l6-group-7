@@ -27,7 +27,15 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
             if (value == _correctAnswer)
             {
                 gameManager.ActiveChallengeNumber++;
-                dropdownSign.Dropdown(0.0f, 1.5f, $"CORRECT! ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");   
+                if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
+                {
+                    dropdownSign.Dropdown(0.0f, 1.5f, "WELL DONE!");
+                }
+                else
+                {
+                    dropdownSign.Dropdown(0.0f, 1.5f,
+                        $"CORRECT! ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");
+                }
             }
             else
             {                
