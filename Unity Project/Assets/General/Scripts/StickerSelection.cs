@@ -21,11 +21,7 @@ namespace General.Scripts
         public Subject ChallengeSubject;
 
         private void Start()
-        {
-            AudioSource soundTrack = GameObject.Find("Game Manager").GetComponent<AudioSource>();
-            soundTrack.volume = 1.0f;
-            soundTrack.Play();
-            
+        {            
             var gameManager = GameManager.Instance;
             ChallengeDifficulty = gameManager.ActiveChallengeDifficulty;
             ChallengeSubject = gameManager.ActiveSubject;
