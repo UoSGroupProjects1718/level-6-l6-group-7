@@ -11,9 +11,10 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.StopMusic
 841420938f3349d2f61579bffba25317 Assembly-CSharp.dll:Scenes.Math_Chimp_Challenge.Scripts.ChimpAdditionAnswerButtonPressedEvent
 701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Difficulty_Selection.Scripts.ChimpButtonPressedEvent
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.DraggableSticker
+2283de11660b91532db9f7a25727fab0 Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.DraggableSticker
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ladybird
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -80,7 +81,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:General.Scripts.SubjectColourOverlay
-c3c62d9825c1420b29726e3ce7e46d79 Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.StickerSlot
+a3ab22233d90af758b94d72a82ff236d Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.StickerSlot
 701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Difficulty_Selection.Scripts.GorillaButtonPressedEvent
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -118,7 +119,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 07b81cc025592e8ba1711935133f3e09 Assembly-CSharp.dll:General.Scripts.StickerSelection
 7e4421d53f648305c3a441964fd66f09 Assembly-CSharp.dll:.SceneTransitioner
-d17ffc89433f83d5d88e2e8b19c9fc33 Assembly-CSharp.dll:Scenes.Math_Chimp_Challenge.Scripts.ChimpAddition
+bec4b980c3663175217ae8a6e46c95aa Assembly-CSharp.dll:Scenes.Math_Chimp_Challenge.Scripts.ChimpAddition
 3dd9d8a144315ece38011df7f846e78e Assembly-CSharp.dll:.EnglishButtonPressedEvent
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -155,4 +156,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:General.Scripts.DontDestroyMe
 570df897f40fe74214001575e2da85e1 Assembly-CSharp.dll:.MusicPlayer
 63016f664971097b70d1f73f927876d6 Assembly-CSharp.dll:.SubjectButtonPressedEvent
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Scenes.Sticker_Board.Scripts.StopMusic
+701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Subject_Selection.Scripts.ExitButtonPressedEvent
