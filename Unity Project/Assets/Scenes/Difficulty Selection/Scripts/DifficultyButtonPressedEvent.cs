@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections;
+using System.Linq;
 using General.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +20,7 @@ namespace Scenes.Difficulty_Selection.Scripts
         protected override void ButtonAction()
         {		
             var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+            GameObject.Find("Game Manager").GetComponent<MusicPlayer>().StopMusic(3.0f);
             gameManager.ActiveChallengeNumber = 0;
 
             string destinationSceneName = null;

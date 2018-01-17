@@ -19,12 +19,15 @@ namespace General.Scripts
 		public const float DefaultHangTime = 2.5f;
 		public const float DefaultTimeBeforeDescent = 0.5f;
 
+		[SerializeField] private AudioClip _dropDownSound;
+		[SerializeField] private AudioClip _riseUpSound;		
+
 		[SerializeField] private bool _dropsDownInitially;
 		[SerializeField] private Text _text;
 		
 		private Animator _animator;
 
-		public void Awake()
+		public void Start()
 		{
 			_animator = GetComponent<Animator>();
 			if (_dropsDownInitially && GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired)
@@ -75,6 +78,7 @@ namespace General.Scripts
 			}
 			
 			_animator.SetInteger(AnimParameter, AnimDroppingState);
+			GetComponent<AudioSource>().PlayOneShot(_dropDownSound);
 
 			while (!_animator.GetCurrentAnimatorStateInfo(0).IsName(AnimHanging))
 			{
@@ -84,6 +88,7 @@ namespace General.Scripts
 			yield return new WaitForSeconds(hangTime);
 
 			_animator.SetInteger(AnimParameter, AnimRisingState);
+			GetComponent<AudioSource>().PlayOneShot(_riseUpSound);
 			
 			while(!_animator.GetCurrentAnimatorStateInfo(0).IsName(AnimIdle))
 			{

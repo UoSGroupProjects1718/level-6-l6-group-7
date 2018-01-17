@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 0146cac72840cdd43b31ad377e8f6c60
+timeCreated: 1512047324
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - _mathChimpSticker: {fileID: 21300000, guid: bb08bed9060891e4dac0630adf77c8b2,
+      type: 3}
+  - _mathGorillaSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _mathOrangutanSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _englishChimpSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _englishGorillaSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _englishOrangutanSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _scienceChimpSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _scienceGorillaSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  - _scienceOrangutanSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,8 +2,8 @@
 {
     public abstract class Difficulty
     {
-        public static int Chimp = 0;
-        public static int Gorilla = 1;
-        public static int Orangutan = 2;
+        public const int Chimp = 0;
+        public const int Gorilla = 1;
+        public const int Orangutan = 2;
     }
 }

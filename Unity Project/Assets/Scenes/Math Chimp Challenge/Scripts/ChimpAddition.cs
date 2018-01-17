@@ -10,6 +10,8 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
 {
     public class ChimpAddition : MonoBehaviour
     {
+        [SerializeField] private AudioClip _incorrectAnswerSound;
+        [SerializeField] private AudioClip _correctAnswerSound;
         [SerializeField] private Ladybird _ladybirdLeft;
         [SerializeField] private Ladybird _ladybirdRight;
 
@@ -20,38 +22,63 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
 
         public IEnumerator CheckAnswer(int value)
         {
-            var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
+            var gameManager = GameManager.Instance;
             var dropdownSign = GameObject.Find("Dropdown Sign").GetComponent<DropdownSign>();
             var sceneTransitioner = GameObject.Find("Scene Transitioner").GetComponent<SceneTransitioner>();
             
             if (value == _correctAnswer)
             {
+                GetComponent<AudioSource>().PlayOneShot(_correctAnswerSound);
                 gameManager.ActiveChallengeNumber++;
-                dropdownSign.Dropdown(0.0f, 1.5f, "THAT'S CORRECT! (" + gameManager.ActiveChallengeNumber + "/5)");
+                if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
+                {
+                    dropdownSign.Dropdown(0.0f, 1.5f, "WELL DONE!");
+                }
+                else
+                {
+                    dropdownSign.Dropdown(0.0f, 1.5f,
+                        $"CORRECT! ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");
+                }
             }
             else
-            {
-                dropdownSign.Dropdown(0.0f, 1.5f, "OOPS, TRY AGAIN (" + gameManager.ActiveChallengeNumber + "/5)");   
+            {                
+                GetComponent<AudioSource>().PlayOneShot(_incorrectAnswerSound);
+                dropdownSign.Dropdown(0.0f, 1.5f, $"OOPS, TRY AGAIN ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");   
             }
             
             while (!dropdownSign.IsRising())
             {
-                Debug.Log("NOT RISING");
                 yield return new WaitForSeconds(0.25f);
             }
-            Debug.Log("RISING");
-
+            
             if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
             {
-                sceneTransitioner.TransitionToScene("Subject Selection");
+                StartCoroutine(FadeDestroyMusic());
+                sceneTransitioner.TransitionToScene("Sticker Reward");
                 yield break;
             }
             
             sceneTransitioner.TransitionToScene("Math Chimp Challenge");
         }
+
+        private IEnumerator FadeDestroyMusic()
+        {
+            GameObject.Find("Soundtrack").GetComponent<MusicPlayer>().StopMusic(2.0f);
+            yield return new WaitForSeconds(2.0f);
+            GameObject.Destroy(GameObject.Find("Soundtrack"));
+        }
+
+        private IEnumerator EnableTransitions(float pauseTime)
+        {
+            yield return new WaitForSeconds(pauseTime);
+            GameObject.Find("Ladybird Left").GetComponent<Animator>().SetBool("Transition", true);
+            GameObject.Find("Ladybird Right").GetComponent<Animator>().SetBool("Transition", true);
+        }
     
         private void Awake()
         {
+            StartCoroutine(EnableTransitions(GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired ? 4.5f : 0.0f));            
+            
             var ladybirdLeftSpots = Random.Range(2, _ladybirdLeft.GetSpots().Count + 1);
             _ladybirdLeft.SetVisibleSpots(ladybirdLeftSpots);
         

@@ -1,4 +1,5 @@
-﻿using General.Scripts;
+﻿using System.Collections;
+using General.Scripts;
 using UnityEngine;
 
 namespace Scenes.Difficulty_Selection.Scripts
