@@ -736,6 +736,7 @@ GameObject:
   - component: {fileID: 522472503}
   - component: {fileID: 522472502}
   - component: {fileID: 522472505}
+  - component: {fileID: 522472506}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -813,6 +814,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 522472505}
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 522472506}
+        m_MethodName: PerformAction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -937,6 +949,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &522472506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 522472500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b9002e89600c5d478d8a145fa59bfd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timesPressable: 1
 --- !u!1001 &599791696
 Prefab:
   m_ObjectHideFlags: 0
