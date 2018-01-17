@@ -10,6 +10,8 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
 {
     public class ChimpAddition : MonoBehaviour
     {
+        [SerializeField] private AudioClip _incorrectAnswerSound;
+        [SerializeField] private AudioClip _correctAnswerSound;
         [SerializeField] private Ladybird _ladybirdLeft;
         [SerializeField] private Ladybird _ladybirdRight;
 
@@ -26,6 +28,7 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
             
             if (value == _correctAnswer)
             {
+                GetComponent<AudioSource>().PlayOneShot(_correctAnswerSound);
                 gameManager.ActiveChallengeNumber++;
                 if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
                 {
@@ -39,6 +42,7 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
             }
             else
             {                
+                GetComponent<AudioSource>().PlayOneShot(_incorrectAnswerSound);
                 dropdownSign.Dropdown(0.0f, 1.5f, $"OOPS, TRY AGAIN ({gameManager.ActiveChallengeNumber}/{gameManager.ChallengesPerSet})");   
             }
             
@@ -46,18 +50,35 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
             {
                 yield return new WaitForSeconds(0.25f);
             }
-
+            
             if (gameManager.ActiveChallengeNumber == gameManager.ChallengesPerSet)
-            {               
+            {
+                StartCoroutine(FadeDestroyMusic());
                 sceneTransitioner.TransitionToScene("Sticker Reward");
                 yield break;
             }
             
             sceneTransitioner.TransitionToScene("Math Chimp Challenge");
         }
+
+        private IEnumerator FadeDestroyMusic()
+        {
+            GameObject.Find("Soundtrack").GetComponent<MusicPlayer>().StopMusic(2.0f);
+            yield return new WaitForSeconds(2.0f);
+            GameObject.Destroy(GameObject.Find("Soundtrack"));
+        }
+
+        private IEnumerator EnableTransitions(float pauseTime)
+        {
+            yield return new WaitForSeconds(pauseTime);
+            GameObject.Find("Ladybird Left").GetComponent<Animator>().SetBool("Transition", true);
+            GameObject.Find("Ladybird Right").GetComponent<Animator>().SetBool("Transition", true);
+        }
     
         private void Awake()
         {
+            StartCoroutine(EnableTransitions(GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired ? 4.5f : 0.0f));            
+            
             var ladybirdLeftSpots = Random.Range(2, _ladybirdLeft.GetSpots().Count + 1);
             _ladybirdLeft.SetVisibleSpots(ladybirdLeftSpots);
         

@@ -154,7 +154,17 @@ Prefab:
     - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
         type: 2}
       propertyPath: _fadeInTimeInSeconds
-      value: 2
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
+        type: 2}
+      propertyPath: _fadeOutTimeInSeconds
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
+        type: 2}
+      propertyPath: _timeBeforeFadeOut
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6599befd1d6ae49a2e95b94c2be516, type: 2}
@@ -351,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf04d07bcd817c74d9d31eb1b949871f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChallengesPerSet: 1
+  ChallengesPerSet: 2
   TutorialRequired: 0
 --- !u!4 &917524968
 Transform:

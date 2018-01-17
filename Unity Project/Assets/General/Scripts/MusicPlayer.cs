@@ -23,6 +23,11 @@ public class MusicPlayer : MonoBehaviour
 		float elapsedTime = 0;
 		float currentVolume = from;
 
+		if (time == 0.0f)
+		{
+			_audioSource.volume = to;
+		}
+
 		while(elapsedTime < time) {
 			elapsedTime += Time.deltaTime;
 			_audioSource.volume = Mathf.Lerp(currentVolume, to, elapsedTime / time);

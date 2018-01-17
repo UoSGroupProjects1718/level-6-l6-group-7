@@ -9,7 +9,7 @@ namespace General.Scripts
 			var gameManager = GameObject.Find("Game Manager");
 			if (!gameManager.GetComponent<AudioSource>().isPlaying)
 			{
-				gameManager.GetComponent<MusicPlayer>().StartMusic(0.5f);
+				gameManager.GetComponent<MusicPlayer>().StartMusic(0.0f);
 			}	
 		}
 	
