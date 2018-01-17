@@ -7,6 +7,7 @@ namespace Scenes.Sticker_Board.Scripts
 {
 	public class StickerSlot : MonoBehaviour
 	{
+		[SerializeField] private AudioClip _fitSlotSound;
 		[SerializeField] private string _subject;
 		[SerializeField] private int _difficulty;
 		[SerializeField] private Sprite _sticker;
@@ -29,6 +30,7 @@ namespace Scenes.Sticker_Board.Scripts
 			draggableSticker.Subject.DifficultiesComplete.Add(_difficulty);
 			GetComponent<Image>().sprite = _sticker;
 			Destroy(collision.gameObject);
+			GetComponent<AudioSource>().PlayOneShot(_fitSlotSound);
 			GameObject.Find("Back Button").GetComponent<Button>().interactable = true;
 		}
 	}

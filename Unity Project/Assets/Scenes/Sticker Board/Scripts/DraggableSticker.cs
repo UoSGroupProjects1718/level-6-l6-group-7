@@ -8,6 +8,8 @@ namespace Scenes.Sticker_Board.Scripts
 {
     public class DraggableSticker : DraggableObject
     {
+        [SerializeField] private AudioClip _pickupSound;
+        
         public Subject Subject;
         public int? Difficulty;
         
@@ -32,6 +34,7 @@ namespace Scenes.Sticker_Board.Scripts
         
         public override void OnBeginDrag(PointerEventData eventData)
         {
+            GetComponent<AudioSource>().PlayOneShot(_pickupSound);
             _beingDragged = true;
         }
 

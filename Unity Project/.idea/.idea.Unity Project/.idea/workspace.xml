@@ -12,26 +12,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DifficultyButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="83" lean-forward="false" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="83" />
-              <folding>
-                <marker date="1515677761334" expanded="false" signature="6:108" ph="..." />
-                <marker date="1515677761334" expanded="true" signature="233:2006" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="278:531" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="339:464" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="587:2000" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="1010:1180" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="1297:1461" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="1584:1754" ph="{...}" />
-                <marker date="1515677761334" expanded="true" signature="1801:1990" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ChimpButtonPressedEvent.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/ChimpButtonPressedEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,27 +43,6 @@
                 <marker date="1516116286857" expanded="true" signature="714:746" ph="{...}" />
                 <marker date="1516116286857" expanded="true" signature="790:870" ph="{...}" />
                 <marker date="1516116286857" expanded="true" signature="910:967" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StickerSelection.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/StickerSelection.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <marker date="1515677793779" expanded="false" signature="6:40" ph="..." />
-                <marker date="1515677793779" expanded="true" signature="67:3016" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="119:3014" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="807:3008" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="1088:1671" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="1165:1657" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="1742:2334" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="1819:2320" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="2405:2997" ph="{...}" />
-                <marker date="1515677793779" expanded="true" signature="2482:2983" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -166,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DontDestroyMe.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DontDestroyMe.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/DontDestroyMe.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -177,6 +136,42 @@
                 <marker date="1516192938345" expanded="true" signature="111:359" ph="{...}" />
                 <marker date="1516192938345" expanded="true" signature="128:354" ph="{...}" />
                 <marker date="1516192938345" expanded="true" signature="315:350" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DraggableSticker.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/DraggableSticker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+              <folding>
+                <marker date="1516193311194" expanded="false" signature="6:96" ph="..." />
+                <marker date="1516193311194" expanded="true" signature="136:1868" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="190:1866" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="447:1029" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="741:905" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="1107:1228" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="1293:1645" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="1713:1768" ph="{...}" />
+                <marker date="1516193311194" expanded="true" signature="1806:1860" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StickerSlot.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerSlot.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="32" column="65" lean-forward="false" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding>
+                <marker date="1516193363161" expanded="false" signature="6:97" ph="..." />
+                <marker date="1516193363161" expanded="true" signature="137:1345" ph="{...}" />
+                <marker date="1516193363161" expanded="true" signature="181:1343" ph="{...}" />
+                <marker date="1516193363161" expanded="true" signature="429:647" ph="{...}" />
+                <marker date="1516193363161" expanded="true" signature="701:1340" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -279,8 +274,6 @@
         <option value="$PROJECT_DIR$/Assets/General/Scripts/StickerSprites.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/Sticker.cs" />
         <option value="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerSlot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/DraggableSticker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/General/Scripts/SceneTransitioner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs" />
@@ -291,6 +284,8 @@
         <option value="$PROJECT_DIR$/Assets/General/Scripts/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAddition.cs" />
         <option value="$PROJECT_DIR$/Assets/General/Scripts/DontDestroyMe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/DraggableSticker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerSlot.cs" />
       </list>
     </option>
   </component>
@@ -449,12 +444,12 @@
       <workItem from="1515595100408" duration="2355000" />
       <workItem from="1515676989281" duration="5429000" />
       <workItem from="1516115553117" duration="1931000" />
-      <workItem from="1516192191919" duration="748000" />
+      <workItem from="1516192191919" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69635000" />
+    <option name="totallyTimeSpent" value="70358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,20 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerSlot.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/DraggableSticker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -820,6 +801,38 @@
             <marker date="1516192938345" expanded="true" signature="111:359" ph="{...}" />
             <marker date="1516192938345" expanded="true" signature="128:354" ph="{...}" />
             <marker date="1516192938345" expanded="true" signature="315:350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/DraggableSticker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <marker date="1516193311194" expanded="false" signature="6:96" ph="..." />
+            <marker date="1516193311194" expanded="true" signature="136:1868" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="190:1866" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="447:1029" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="741:905" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="1107:1228" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="1293:1645" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="1713:1768" ph="{...}" />
+            <marker date="1516193311194" expanded="true" signature="1806:1860" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerSlot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="32" column="65" lean-forward="false" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <marker date="1516193363161" expanded="false" signature="6:97" ph="..." />
+            <marker date="1516193363161" expanded="true" signature="137:1345" ph="{...}" />
+            <marker date="1516193363161" expanded="true" signature="181:1343" ph="{...}" />
+            <marker date="1516193363161" expanded="true" signature="429:647" ph="{...}" />
+            <marker date="1516193363161" expanded="true" signature="701:1340" ph="{...}" />
           </folding>
         </state>
       </provider>
