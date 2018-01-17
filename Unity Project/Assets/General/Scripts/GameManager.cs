@@ -10,7 +10,7 @@ namespace General.Scripts
 
 		public int ChallengesPerSet;
 		
-		public readonly List<string> EnglishChallengeSceneNames = new List<string>();
+		public readonly List<string> EnglishChallengeSceneNames = new List<string>() { "English Chimp Challenge"};
 		public readonly List<string> MathChallengeSceneNames = new List<string>() { "Math Chimp Challenge"};
 		public readonly List<string> ScienceChallengeSceneNames = new List<string>();
 

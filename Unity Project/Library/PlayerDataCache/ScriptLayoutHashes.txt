@@ -1,4 +1,5 @@
 Android
+701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Subject_Selection.Scripts.ExitButtonPressedEvent
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -120,6 +121,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 07b81cc025592e8ba1711935133f3e09 Assembly-CSharp.dll:General.Scripts.StickerSelection
 7e4421d53f648305c3a441964fd66f09 Assembly-CSharp.dll:.SceneTransitioner
 bec4b980c3663175217ae8a6e46c95aa Assembly-CSharp.dll:Scenes.Math_Chimp_Challenge.Scripts.ChimpAddition
+701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Difficulty_Selection.Scripts.DifficultyBackButtonPressedEvent
 3dd9d8a144315ece38011df7f846e78e Assembly-CSharp.dll:.EnglishButtonPressedEvent
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -156,4 +158,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:General.Scripts.DontDestroyMe
 570df897f40fe74214001575e2da85e1 Assembly-CSharp.dll:.MusicPlayer
 63016f664971097b70d1f73f927876d6 Assembly-CSharp.dll:.SubjectButtonPressedEvent
-701492ac0119a989b6eb42657413daad Assembly-CSharp.dll:Scenes.Subject_Selection.Scripts.ExitButtonPressedEvent
+fa744744af9816afb9a46ae135cdc862 Assembly-CSharp.dll:Scenes.English_Chimp_Challenge.Scripts.EnglishChimpChallenge

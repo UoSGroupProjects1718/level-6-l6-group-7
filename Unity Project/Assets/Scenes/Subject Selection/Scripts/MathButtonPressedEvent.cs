@@ -1,4 +1,5 @@
 ﻿using General.Scripts;
+using Scenes.English_Chimp_Challenge.Scripts;
 using UnityEngine;
 
 public class MathButtonPressedEvent : SubjectButtonPressedEvent
@@ -12,6 +13,6 @@ public class MathButtonPressedEvent : SubjectButtonPressedEvent
         gameManager.ActiveSubject = gameManager.Math;
         
         _englishOverlay.GetComponent<Animator>().SetBool(SubjectName, true);
-        _scienceOverlay.GetComponent<Animator>().SetBool(SubjectName, true);
+        _scienceOverlay.GetComponent<Animator>().SetBool(SubjectName, true);        
     }
 }

@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sticker Reward/Sticker Reward.unity
     guid: 5bf733dd5db21114599c61ebf9bb0003
+  - enabled: 1
+    path: Assets/Scenes/English Chimp Challenge/English Chimp Challenge.unity
+    guid: 157c4921d6df39743bae8c7080bffd88
