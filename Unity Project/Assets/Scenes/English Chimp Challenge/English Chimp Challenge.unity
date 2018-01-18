@@ -267,7 +267,6 @@ RectTransform:
   m_Children:
   - {fileID: 990608580}
   - {fileID: 1599336666}
-  - {fileID: 270122746}
   - {fileID: 740965394}
   - {fileID: 1419905633}
   - {fileID: 2141416111}
@@ -346,7 +345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: WWWW
+  m_Text: WORD
 --- !u!222 &235397725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -364,7 +363,6 @@ GameObject:
   - component: {fileID: 270122750}
   - component: {fileID: 270122749}
   - component: {fileID: 270122748}
-  - component: {fileID: 270122747}
   - component: {fileID: 270122751}
   m_Layer: 5
   m_Name: Banana
@@ -379,38 +377,18 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 270122745}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -220, y: 265, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalRotation: {x: 0.98211145, y: -0.18830064, z: -0, w: 0}
+  m_LocalPosition: {x: -269, y: -580, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0}
   m_Children: []
-  m_Father: {fileID: 144683058}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 1599336666}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 179.99998, z: 201.70699}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: 265}
+  m_AnchoredPosition: {x: -269, y: -580}
   m_SizeDelta: {x: 2441.6667, y: 2150}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!50 &270122747
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 270122745}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 2
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!60 &270122748
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -639,7 +617,7 @@ RectTransform:
   - {fileID: 978416885}
   - {fileID: 1447458870}
   m_Father: {fileID: 144683058}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -892,7 +870,7 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 1599336666}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1032,7 +1010,7 @@ Prefab:
     - target: {fileID: 114922755234229962, guid: f63961987ff671944b32c46cf4a98979,
         type: 2}
       propertyPath: m_Text
-      value: DROP THE BANANA IN THE BASKET WITH THE SIMILAR SOUNDING WORD!
+      value: PUT THE BANANA IN THE BASKET WITH THE RHYMING WORD
       objectReference: {fileID: 0}
     - target: {fileID: 224514568384241496, guid: f63961987ff671944b32c46cf4a98979,
         type: 2}
@@ -1355,7 +1333,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 144683058}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1535,6 +1513,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1458506416}
+  - component: {fileID: 1458506417}
   m_Layer: 5
   m_Name: Eyes
   m_TagString: Untagged
@@ -1555,13 +1534,30 @@ RectTransform:
   - {fileID: 99411009}
   - {fileID: 1276446343}
   m_Father: {fileID: 1599336666}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1.8, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1458506417
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458506415}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1a8183c5fe91153459b642750b131436, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1558047059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,7 +1625,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: WWWW
+  m_Text: WORD
 --- !u!222 &1558047062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1703,7 +1699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: WWWW
+  m_Text: WORD
 --- !u!222 &1597191262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1736,6 +1732,7 @@ RectTransform:
   m_LocalPosition: {x: -539, y: 709, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 270122746}
   - {fileID: 991354892}
   - {fileID: 1458506416}
   m_Father: {fileID: 144683058}
@@ -2206,5 +2203,5 @@ Transform:
   m_Children:
   - {fileID: 1388450601}
   m_Father: {fileID: 144683058}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
