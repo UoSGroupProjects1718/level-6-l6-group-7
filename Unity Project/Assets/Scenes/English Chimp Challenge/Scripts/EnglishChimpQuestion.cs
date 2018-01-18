@@ -1,15 +1,15 @@
 ﻿namespace Scenes.English_Chimp_Challenge.Scripts
 {
-    public class Synonymn
+    public class EnglishChimpQuestion
     {
         public string WordToMatch;
-        public string MatchingWord;
+        public string SimilarWord;
         public string[] IncorrectAnswers;
 
-        public Synonymn(string wordToMatch, string matchingWord, string[] incorrectAnswers)
+        public EnglishChimpQuestion(string wordToMatch, string similarWord, string[] incorrectAnswers)
         {
             WordToMatch = wordToMatch;
-            MatchingWord = matchingWord;
+            SimilarWord = similarWord;
             IncorrectAnswers = incorrectAnswers;
         }
     }

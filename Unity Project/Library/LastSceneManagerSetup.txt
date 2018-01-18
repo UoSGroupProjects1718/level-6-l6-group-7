@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Difficulty Selection/Difficulty Selection.unity
+- path: Assets/Scenes/English Chimp Challenge/English Chimp Challenge.unity
   isLoaded: 1
   isActive: 1

@@ -19,6 +19,8 @@ namespace General.Scripts
 		public const float DefaultHangTime = 2.5f;
 		public const float DefaultTimeBeforeDescent = 0.5f;
 
+		[SerializeField] private float HangTime = DefaultHangTime;
+
 		[SerializeField] private AudioClip _dropDownSound;
 		[SerializeField] private AudioClip _riseUpSound;		
 
@@ -33,7 +35,7 @@ namespace General.Scripts
 			if (_dropsDownInitially && GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired)
 			{
 				GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired = false;
-				Dropdown();
+				Dropdown(DefaultTimeBeforeDescent, HangTime);
 			}
 		}
 		
