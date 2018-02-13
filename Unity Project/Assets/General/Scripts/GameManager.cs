@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Security.Policy;
 using UnityEngine;
 
@@ -22,6 +23,15 @@ namespace General.Scripts
 		public int? ActiveChallengeDifficulty = null;
 		public int? ActiveChallengeNumber = null;
 		public bool TutorialRequired = false;
+		
+		
+		private void Update()
+		{
+			var math = Math.DifficultiesComplete.Aggregate("Math: ", (current, difficulty) => current + (difficulty + ", "));
+			var english = English.DifficultiesComplete.Aggregate("English: ", (current, difficulty) => current + (difficulty + ", "));
+			Debug.Log(math);
+			Debug.Log(english);
+		}
 		
 		public static GameManager Instance
 		{

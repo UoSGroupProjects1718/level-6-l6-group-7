@@ -29,12 +29,13 @@ namespace General.Scripts
 		
 		private Animator _animator;
 
+		private Coroutine _display;
+
 		public void Start()
 		{
 			_animator = GetComponent<Animator>();
-			if (_dropsDownInitially && GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired)
+			if (_dropsDownInitially && GameManager.Instance.TutorialRequired)
 			{
-				GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired = false;
 				Dropdown(DefaultTimeBeforeDescent, HangTime);
 			}
 		}
@@ -42,22 +43,22 @@ namespace General.Scripts
 		public void Dropdown(float timeBeforeDescent, float hangTime, string text)
 		{
 			_text.text = text;	
-			StartCoroutine(Display(timeBeforeDescent, hangTime));
+			_display = StartCoroutine(Display(timeBeforeDescent, hangTime));
 		}
 
 		public void Dropdown(float timeBeforeDescent, float hangTime)
 		{
-			StartCoroutine(Display(timeBeforeDescent, hangTime));
+			_display = StartCoroutine(Display(timeBeforeDescent, hangTime));
 		}
 		
 		public void Dropdown(float timeBeforeDescent)
 		{
-			StartCoroutine(Display(timeBeforeDescent, DefaultHangTime));
+			_display = StartCoroutine(Display(timeBeforeDescent, DefaultHangTime));
 		}
 
 		public void Dropdown()
 		{
-			StartCoroutine(Display(DefaultTimeBeforeDescent, DefaultHangTime));
+			_display = StartCoroutine(Display(DefaultTimeBeforeDescent, DefaultHangTime));
 		}
 
 		public bool IsIdle()
@@ -68,6 +69,27 @@ namespace General.Scripts
 		public bool IsRising()
 		{
 			return _animator.GetInteger(AnimParameter) == AnimRisingState;
+		}
+
+		public IEnumerator Override()
+		{
+			StopCoroutine(_display);
+			if (_animator.GetCurrentAnimatorStateInfo(0).IsName(AnimIdle))
+			{
+				yield return null;
+			}
+			
+			_animator.SetInteger(AnimParameter, AnimRisingState);
+			GetComponent<AudioSource>().PlayOneShot(_riseUpSound);
+			
+			while(!_animator.GetCurrentAnimatorStateInfo(0).IsName(AnimIdle))
+			{
+				yield return new WaitForSeconds(IdleWaitTime);
+			}
+			
+			_animator.SetInteger(AnimParameter, AnimIdleState);
+			
+			GameManager.Instance.TutorialRequired = false;
 		}
 		
 		private IEnumerator Display(float timeBeforeDescent, float hangTime)
@@ -98,6 +120,8 @@ namespace General.Scripts
 			}
 			
 			_animator.SetInteger(AnimParameter, AnimIdleState);
+			
+			GameManager.Instance.TutorialRequired = false;
 		}
 	}
 }
