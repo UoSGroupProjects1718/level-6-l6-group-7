@@ -17,8 +17,18 @@ namespace Scenes.Sticker_Board.Scripts
 		private void Start()
 		{
 			_gameManager = GameManager.Instance;
-			if (_gameManager.ActiveSubject.Name == _subject && _gameManager.ActiveSubject.DifficultiesComplete.Contains(_difficulty))
+			if (_subject == "Math" && _gameManager.Math.DifficultiesComplete.Contains(_difficulty))
+			{
 				GetComponent<Image>().sprite = _sticker;
+			}
+			else if (_subject == "English" && _gameManager.English.DifficultiesComplete.Contains(_difficulty))
+			{
+				GetComponent<Image>().sprite = _sticker;
+			}
+			else if (_subject == "Science" && _gameManager.Science.DifficultiesComplete.Contains(_difficulty))
+			{
+				GetComponent<Image>().sprite = _sticker;
+			}
 		}
 
 		private void OnTriggerStay2D(Collider2D collision)
@@ -26,8 +36,16 @@ namespace Scenes.Sticker_Board.Scripts
 			var draggableSticker = collision.GetComponent<DraggableSticker>();
 			if (draggableSticker == null || draggableSticker.IsBeingDragged() || draggableSticker.Difficulty != _difficulty || draggableSticker.Subject.Name != _subject)
 				return;
-			// TODO: This may need to use gameManager instead of draggableSticker (possibly different references).
-			draggableSticker.Subject.DifficultiesComplete.Add(_difficulty);
+			if (draggableSticker.Subject.Name == "Math")
+				_gameManager.Math.DifficultiesComplete.Add(_difficulty);
+			else if (draggableSticker.Subject.Name == "English")
+			{
+				_gameManager.English.DifficultiesComplete.Add(_difficulty);
+			}
+			else if (draggableSticker.Subject.Name == "Science")
+			{
+				_gameManager.Science.DifficultiesComplete.Add(_difficulty);
+			}
 			GetComponent<Image>().sprite = _sticker;
 			Destroy(collision.gameObject);
 			GetComponent<AudioSource>().PlayOneShot(_fitSlotSound);

@@ -23,7 +23,13 @@ namespace General.Scripts
 		public int? ActiveChallengeDifficulty = null;
 		public int? ActiveChallengeNumber = null;
 		public bool TutorialRequired = false;
-		
+
+//
+//		private void Start()
+//		{
+//			Math.DifficultiesComplete.Add(0);
+//			English.DifficultiesComplete.Add(0);
+//		}
 		
 		private void Update()
 		{

@@ -935,7 +935,6 @@ GameObject:
   - component: {fileID: 808559162}
   - component: {fileID: 808559164}
   - component: {fileID: 808559165}
-  - component: {fileID: 808559166}
   - component: {fileID: 808559167}
   m_Layer: 0
   m_Name: Math Chimp Sticker
@@ -1035,20 +1034,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 400, y: 400}
   m_EdgeRadius: 0
---- !u!114 &808559166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 808559160}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78da9c4be6214082929cad87464bc6cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MathStickers: []
-  EnglishStickers: []
-  ScienceStickers: []
 --- !u!82 &808559167
 AudioSource:
   m_ObjectHideFlags: 0

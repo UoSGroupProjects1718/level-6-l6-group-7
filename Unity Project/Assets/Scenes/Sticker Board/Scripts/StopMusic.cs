@@ -7,9 +7,9 @@ namespace Scenes.Sticker_Board.Scripts
 
         private IEnumerator FadeOutTimer()
         {
-            GameObject musicObject = GameObject.Find("Music");
-            musicObject.GetComponent<MusicPlayer>().StopMusic(2.5f);
-            yield return new WaitForSeconds(2.5f);
+            var musicObject = GameObject.Find("Music");
+            musicObject.GetComponent<MusicPlayer>().StopMusic(1.5f);
+            yield return new WaitForSeconds(1.5f);
             Destroy(musicObject);
         }
         
