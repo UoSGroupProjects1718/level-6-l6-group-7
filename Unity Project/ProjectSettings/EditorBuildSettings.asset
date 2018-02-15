@@ -26,3 +26,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/English Chimp Challenge/English Chimp Challenge.unity
     guid: 157c4921d6df39743bae8c7080bffd88
+  - enabled: 1
+    path: Assets/Scenes/English Gorilla Challenge/English Gorilla Challenge.unity
+    guid: 57b599c397270b3418fb6ab7e2d4d00b
+  - enabled: 1
+    path: Assets/Scenes/English Orangutan Challenge/English Orangutan Challenge.unity
+    guid: 2f03b000c0a5b464181a6f6275f93b2d
+  - enabled: 1
+    path: Assets/Scenes/Math Gorilla Challenge/Math Gorilla Challenge.unity
+    guid: 5fa43d3b56e03ad4b9e5acbf2efdba32
+  - enabled: 1
+    path: Assets/Scenes/Math Orangutan Challenge/Math Orangutan Challenge.unity
+    guid: 28097296f6caa644982073800d0eaf3f

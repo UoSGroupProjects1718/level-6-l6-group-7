@@ -20,7 +20,7 @@ namespace Scenes.Difficulty_Selection.Scripts
         protected override void ButtonAction()
         {		
             var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
-            gameManager.ActiveChallengeDifficulty = Difficulty.Gorilla;;
+            gameManager.ActiveChallengeDifficulty = Difficulty.Gorilla;
             base.ButtonAction();
         }
     }

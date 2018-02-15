@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using General.Scripts;
+using Scenes.Math_Gorilla_Challenge.Scripts;
+using Scenes.Math_Orangutan_Challenge.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,12 +25,21 @@ namespace Scenes.Math_Chimp_Challenge.Scripts
 			{
 				button.interactable = false;
 			}
-			
-			var chimpAddition =  GameObject.Find("Challenge").GetComponent<ChimpAddition>();
-			if (chimpAddition != null)
+
+			Debug.Log("Active Difficulty: " + GameManager.Instance.ActiveChallengeDifficulty);
+			switch (GameManager.Instance.ActiveChallengeDifficulty)
 			{
-				StartCoroutine(chimpAddition.CheckAnswer(Convert.ToInt32(_text.text)));
+				case Difficulty.Chimp:
+					StartCoroutine(GameObject.Find("Challenge").GetComponent<ChimpAddition>().CheckAnswer(Convert.ToInt32(_text.text)));
+					break;
+				case Difficulty.Gorilla:
+					StartCoroutine(GameObject.Find("Challenge").GetComponent<MathGorillaChallenge>().CheckAnswer(Convert.ToInt32(_text.text)));
+					break;
+				case Difficulty.Orangutan:
+					StartCoroutine(GameObject.Find("Challenge").GetComponent<MathOrangutanChallenge>().CheckAnswer(Convert.ToInt32(_text.text)));
+					break;
 			}
+
 		}
 	}
 }

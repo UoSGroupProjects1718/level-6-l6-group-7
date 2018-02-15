@@ -11,9 +11,9 @@ namespace General.Scripts
 
 		public int ChallengesPerSet;
 		
-		public readonly List<string> EnglishChallengeSceneNames = new List<string>() { "English Chimp Challenge"};
-		public readonly List<string> MathChallengeSceneNames = new List<string>() { "Math Chimp Challenge"};
-		public readonly List<string> ScienceChallengeSceneNames = new List<string>();
+		public readonly List<string> EnglishChallengeSceneNames = new List<string>() { "English Chimp Challenge", "English Gorilla Challenge", "English Orangutan Challenge"};
+		public readonly List<string> MathChallengeSceneNames = new List<string>() { "Math Chimp Challenge", "Math Gorilla Challenge", "Math Orangutan Challenge"};
+		public readonly List<string> ScienceChallengeSceneNames = new List<string>() { "Science Chimp Challenge", "Science Gorilla Challenge", "Science Orangutan Challenge"};
 
 		public readonly Subject Math = new Subject("Math", new Color32(0, 103, 163, 255));
 		public readonly Subject English = new Subject("English", new Color32(229, 69, 59, 255));
@@ -24,12 +24,9 @@ namespace General.Scripts
 		public int? ActiveChallengeNumber = null;
 		public bool TutorialRequired = false;
 
-//
-//		private void Start()
-//		{
-//			Math.DifficultiesComplete.Add(0);
-//			English.DifficultiesComplete.Add(0);
-//		}
+		private void Start()
+		{
+		}
 		
 		private void Update()
 		{

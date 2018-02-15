@@ -167,6 +167,11 @@ Prefab:
       propertyPath: _timeBeforeFadeOut
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
+        type: 2}
+      propertyPath: _sceneName
+      value: Subject Selection
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6599befd1d6ae49a2e95b94c2be516, type: 2}
   m_IsPrefabParent: 0

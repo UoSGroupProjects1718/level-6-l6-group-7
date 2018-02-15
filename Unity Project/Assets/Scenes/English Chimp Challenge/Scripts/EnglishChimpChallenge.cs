@@ -36,9 +36,9 @@ namespace Scenes.English_Chimp_Challenge.Scripts
         public IEnumerator EndRound(bool win)
         {
             GetComponent<AudioSource>().PlayOneShot(win ? _correctAnswerSound : _incorrectAnswerSound);
-            _answerLabel1.color = _answerSlot1.text == _activeQuestion.SimilarWord ? Color.green : Color.red;
-            _answerLabel2.color = _answerSlot2.text == _activeQuestion.SimilarWord ? Color.green : Color.red;
-            _answerLabel3.color = _answerSlot3.text == _activeQuestion.SimilarWord ? Color.green : Color.red;
+            _answerLabel1.color = _answerSlot1.text == _activeQuestion.SimilarWord ? Colours.GoApeGreen : Colours.GoApeRed;
+            _answerLabel2.color = _answerSlot2.text == _activeQuestion.SimilarWord ? Colours.GoApeGreen : Colours.GoApeRed;
+            _answerLabel3.color = _answerSlot3.text == _activeQuestion.SimilarWord ? Colours.GoApeGreen : Colours.GoApeRed;
 
             StartCoroutine(_dropdownSign.GetComponent<DropdownSign>().Override());
             while (!_dropdownSign.IsIdle())

@@ -9,8 +9,6 @@ namespace Scenes.Difficulty_Selection.Scripts
         {		
             var gameManager = GameObject.Find("Game Manager").GetComponent<GameManager>();
             gameManager.ActiveChallengeDifficulty = Difficulty.Chimp;
-            gameManager.ActiveChallengeNumber = 0;
-            gameManager.TutorialRequired = true;
             base.ButtonAction();
         }
     }
