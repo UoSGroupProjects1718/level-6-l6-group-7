@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -165,6 +166,11 @@ Prefab:
         type: 2}
       propertyPath: _timeBeforeFadeOut
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
+        type: 2}
+      propertyPath: _sceneName
+      value: Subject Selection
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6599befd1d6ae49a2e95b94c2be516, type: 2}
@@ -251,8 +257,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 309347992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.020833334, y: 0.020833334, z: 0.020833334}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1326301252}
   - {fileID: 591552283}
@@ -361,7 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf04d07bcd817c74d9d31eb1b949871f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChallengesPerSet: 2
+  ChallengesPerSet: 3
   TutorialRequired: 0
 --- !u!4 &917524968
 Transform:
@@ -541,6 +547,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10

@@ -88,6 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -434,7 +435,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 789527875}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -135, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 1498912651}
@@ -457,15 +458,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mathChimpSticker: {fileID: 21300000, guid: bb08bed9060891e4dac0630adf77c8b2, type: 3}
-  _mathGorillaSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+  _mathGorillaSticker: {fileID: 21300000, guid: a1800276b269a1e4db0fd626fe109a7d,
     type: 3}
-  _mathOrangutanSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+  _mathOrangutanSticker: {fileID: 21300000, guid: 6cadf2d6d926ab249b8c0b0a5398fe9c,
     type: 3}
   _englishChimpSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
     type: 3}
-  _englishGorillaSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+  _englishGorillaSticker: {fileID: 21300000, guid: 241dcf4a598dd2f4db56b6ae1555a5dc,
     type: 3}
-  _englishOrangutanSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
+  _englishOrangutanSticker: {fileID: 21300000, guid: 8ca3d9e37e569c6428afcb13db1f112e,
     type: 3}
   _scienceChimpSticker: {fileID: 21300000, guid: 18f4d036f41761246871f3a1b0a09cf6,
     type: 3}
@@ -494,7 +495,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -616,7 +617,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1338735091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 335, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 1498912651}
@@ -727,6 +728,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -847,8 +849,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1498912647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.020833334, y: 0.020833334, z: 0.020833334}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1117525743}
   - {fileID: 85697778}
