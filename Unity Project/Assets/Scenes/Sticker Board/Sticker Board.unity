@@ -797,6 +797,7 @@ GameObject:
   - component: {fileID: 383101129}
   - component: {fileID: 383101132}
   - component: {fileID: 383101133}
+  - component: {fileID: 383101134}
   m_Layer: 5
   m_Name: Back Button
   m_TagString: Untagged
@@ -861,9 +862,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1286121079}
-        m_MethodName: TransitionToScene
-        m_Mode: 5
+      - m_Target: {fileID: 383101134}
+        m_MethodName: PerformAction
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1020,6 +1021,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78741aa022e798146b8b49a71fa66308, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &383101134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 383101127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579f402e9b08f0e42aec6b8e3a8fe685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timesPressable: 1
 --- !u!1 &573590060
 GameObject:
   m_ObjectHideFlags: 0
@@ -1962,12 +1975,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6599befd1d6ae49a2e95b94c2be516, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1286121079 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114131220108207954, guid: 2f6599befd1d6ae49a2e95b94c2be516,
-    type: 2}
-  m_PrefabInternal: {fileID: 1286121078}
-  m_Script: {fileID: 11500000, guid: c8a570e7ca3dd3e48aef811f3acb69ad, type: 3}
 --- !u!1 &1368145368
 GameObject:
   m_ObjectHideFlags: 0
