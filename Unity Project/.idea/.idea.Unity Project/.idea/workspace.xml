@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForceCameraRatio.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForceCameraRatio.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="187" column="21" lean-forward="false" selection-start-line="187" selection-start-column="21" selection-end-line="187" selection-end-column="21" />
+            <state relative-caret-position="3210">
+              <caret line="198" column="53" lean-forward="false" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
               <folding>
                 <marker date="1524569195457" expanded="false" signature="6:101" ph="..." />
                 <marker date="1524569195457" expanded="true" signature="128:11846" ph="{...}" />
@@ -104,47 +104,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GorillaButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs">
+      <file leaf-file-name="ScienceQuestion.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceQuestion.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1524568460676" expanded="true" signature="6:67" ph="..." />
-                <marker date="1524568460676" expanded="true" signature="114:1091" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="191:1089" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="225:809" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="738:799" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="865:1083" ph="{...}" />
+                <marker date="1524574102356" expanded="true" signature="6:52" ph="..." />
+                <marker date="1524574102356" expanded="true" signature="96:403" ph="{...}" />
+                <marker date="1524574102356" expanded="true" signature="234:401" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathGorillaChallenge.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Math Gorilla Challenge/Scripts/MathGorillaChallenge.cs">
+      <file leaf-file-name="PhotoFrame.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="1" />
+            <state relative-caret-position="264">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
-                <marker date="1524568460739" expanded="false" signature="6:172" ph="..." />
-                <marker date="1524568460739" expanded="true" signature="221:4526" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="277:4524" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="772:2460" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1091:1660" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1323:1428" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1449:1646" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1677:1944" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2002:2086" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2182:2362" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2508:2729" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2793:3067" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="3101:4518" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="3765:4276" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="3961:4129" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="4027:4111" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="4170:4262" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="4394:4508" ph="{...}" />
+                <marker date="1524572438944" expanded="true" signature="6:40" ph="..." />
+                <marker date="1524572438944" expanded="true" signature="84:301" ph="{...}" />
+                <marker date="1524572438944" expanded="true" signature="130:299" ph="{...}" />
+                <marker date="1524572438944" expanded="true" signature="230:293" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Difficulty.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Difficulty.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+              <folding>
+                <marker date="1516194129802" expanded="true" signature="25:192" ph="{...}" />
+                <marker date="1516194129802" expanded="true" signature="64:190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GorillaButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+              <folding>
+                <marker date="1524568460676" expanded="false" signature="6:67" ph="..." />
+                <marker date="1524568460676" expanded="true" signature="114:1091" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="191:1089" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="225:809" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="738:799" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="865:1083" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -198,58 +211,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/MathButtonPressedEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding>
-                <marker date="1524568460801" expanded="false" signature="6:87" ph="..." />
-                <marker date="1524568460801" expanded="true" signature="152:655" ph="{...}" />
-                <marker date="1524568460801" expanded="true" signature="321:653" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubjectButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/SubjectButtonPressedEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <marker date="1511775275185" expanded="false" signature="6:74" ph="..." />
-                <marker date="1511775275185" expanded="true" signature="135:1224" ph="{...}" />
-                <marker date="1511775275185" expanded="true" signature="646:745" ph="{...}" />
-                <marker date="1511775275185" expanded="true" signature="702:742" ph="{...}" />
-                <marker date="1511775275185" expanded="true" signature="790:797" ph="{...}" />
-                <marker date="1511775275185" expanded="true" signature="838:1222" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DifficultyButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="15" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
-              <folding>
-                <marker date="1524568460676" expanded="false" signature="6:108" ph="..." />
-                <marker date="1524568460676" expanded="true" signature="155:2019" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="233:2017" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="286:547" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="297:480" ph="/* foreach (Transform child in transform) ... */" />
-                <marker date="1524568460676" expanded="true" signature="603:2011" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="1075:1226" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="1343:1491" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="1614:1765" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="1812:2001" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -288,6 +249,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Chimp Challenge/Scripts/Basket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StopMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/DraggableSticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/Subject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/StickerSelection.cs" root0="FORCE_HIGHLIGHTING" />
@@ -312,15 +274,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/Shuffler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/SubjectButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/MathButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnglishButtonPressedEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MathButtonPressedEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SubjectButtonPressedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/General/Scripts/Chimp.cs" />
         <option value="$PROJECT_DIR$/Assets/General/Scripts/ChallengeSubject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultySelectionOverlay.cs" />
@@ -369,6 +329,9 @@
         <option value="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/DemoQuestionThing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceQuestion.cs" />
       </list>
     </option>
   </component>
@@ -409,6 +372,86 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Unity Project (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unity Project (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scenes" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unity Project (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="General" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unity Project (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Unity Project (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,12 +575,12 @@
       <workItem from="1518526097743" duration="12305000" />
       <workItem from="1518617642162" duration="3239000" />
       <workItem from="1518698329998" duration="7503000" />
-      <workItem from="1524568976448" duration="367000" />
+      <workItem from="1524568976448" duration="4531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104645000" />
+    <option name="totallyTimeSpent" value="108809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -587,10 +630,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Chimp.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/Subject.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/Subjects.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/ButtonPressedEvent.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultySelectionOverlay.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Reward/Scripts/StickerSelection.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Shuffler.cs">
@@ -734,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Difficulty.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/English Chimp Challenge/Scripts/EnglishChimpChallenge.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -855,21 +887,6 @@
             <marker date="1511775275185" expanded="true" signature="702:742" ph="{...}" />
             <marker date="1511775275185" expanded="true" signature="790:797" ph="{...}" />
             <marker date="1511775275185" expanded="true" signature="838:1222" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-          <folding>
-            <marker date="1524568460676" expanded="true" signature="6:67" ph="..." />
-            <marker date="1524568460676" expanded="true" signature="114:1091" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="191:1089" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="225:809" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="738:799" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="865:1083" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -994,6 +1011,125 @@
             <marker date="1516194129864" expanded="true" signature="98:321" ph="{...}" />
             <marker date="1516194129864" expanded="true" signature="125:316" ph="{...}" />
             <marker date="1516194129864" expanded="true" signature="239:311" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding>
+            <marker date="1524568460676" expanded="false" signature="6:67" ph="..." />
+            <marker date="1524568460676" expanded="true" signature="114:1091" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="191:1089" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="225:809" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="738:799" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="865:1083" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Difficulty.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <marker date="1516194129802" expanded="true" signature="25:192" ph="{...}" />
+            <marker date="1516194129802" expanded="true" signature="64:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3210">
+          <caret line="198" column="53" lean-forward="false" selection-start-line="198" selection-start-column="53" selection-end-line="198" selection-end-column="53" />
+          <folding>
+            <marker date="1524569195457" expanded="false" signature="6:101" ph="..." />
+            <marker date="1524569195457" expanded="true" signature="128:11846" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="135:351" ph="/* ForceCameraRatio.cs ... */" />
+            <marker date="1524569195457" expanded="true" signature="474:6010" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="513:718" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="1240:1359" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="1369:1501" ph="/// Sets the Camera's current Viewport as the viewport measurements to fill on resizing ... " />
+            <marker date="1524569195457" expanded="true" signature="1545:1640" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="1650:1826" ph="/// Sets the Anchor for this Camera when it is resized based on a given enum description ... " />
+            <marker date="1524569195457" expanded="true" signature="1891:3090" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="1922:3080" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="3100:3390" ph="/// Forces a camera to render at a given ratio ... " />
+            <marker date="1524569195457" expanded="true" signature="3495:6004" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="3667:3857" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="5364:5678" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="5502:5581" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="5818:5895" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="6138:11844" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="6589:8226" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="6724:6780" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="6829:6895" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="7046:7111" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="7252:8114" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="7843:8100" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="7902:8082" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="8151:8216" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="8259:8597" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="8301:8587" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="8478:8573" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="8607:8880" ph="/// Returns the container class for a Camera and it's ratio by the _camera it contains ... " />
+            <marker date="1524569195457" expanded="true" signature="8949:9264" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="8984:9028" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9082:9228" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9156:9214" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9274:9375" ph="/// Removes any null elements from the CameraRatio Array ... " />
+            <marker date="1524569195457" expanded="true" signature="9419:9611" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9478:9601" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9527:9587" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9621:9745" ph="/// Populates the tracked Camera Array with every Camera currently in the scene ... " />
+            <marker date="1524569195457" expanded="true" signature="9791:10226" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="9960:10216" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="10055:10202" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="10236:10511" ph="/// Loops through all cameras in scene (or that have been set in editor) ... " />
+            <marker date="1524569195457" expanded="true" signature="10566:11223" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="10917:10977" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="11031:11213" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="11233:11401" ph="/// Set the anchor for a given Camera ... " />
+            <marker date="1524569195457" expanded="true" signature="11472:11644" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="11572:11634" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="11689:11838" ph="{...}" />
+            <marker date="1524569195457" expanded="true" signature="11724:11790" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceQuestion.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1524574102356" expanded="true" signature="6:52" ph="..." />
+            <marker date="1524574102356" expanded="true" signature="96:403" ph="{...}" />
+            <marker date="1524574102356" expanded="true" signature="234:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/DemoQuestionThing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1524572438944" expanded="true" signature="6:40" ph="..." />
+            <marker date="1524572438944" expanded="true" signature="84:301" ph="{...}" />
+            <marker date="1524572438944" expanded="true" signature="130:299" ph="{...}" />
+            <marker date="1524572438944" expanded="true" signature="230:293" ph="{...}" />
           </folding>
         </state>
       </provider>

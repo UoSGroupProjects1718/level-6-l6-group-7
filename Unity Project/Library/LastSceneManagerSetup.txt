@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Subject Selection/Subject Selection.unity
+- path: Assets/Scenes/Science Challenge/Science Challenge.unity
   isLoaded: 1
   isActive: 1
