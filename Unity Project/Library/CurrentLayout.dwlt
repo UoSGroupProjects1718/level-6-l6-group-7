@@ -43,7 +43,7 @@ MonoBehaviour:
     y: 0
     width: 1904
     height: 991
-  m_MinSize: {x: 950, y: 521}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 1341
     height: 670
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -292,14 +292,14 @@ MonoBehaviour:
     height: 649
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 2490.2714128274088
+  lastFramingTime: 2442.1109595020284
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.747242, y: 0.37349814, z: 89.8264}
+    m_Target: {x: 1.6804924, y: -0.17292275, z: 89.78125}
     speed: 2
-    m_Value: {x: 5.747242, y: 0.37349814, z: 89.8264}
+    m_Value: {x: 1.6804924, y: -0.17292275, z: 89.78125}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -327,9 +327,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 33.782722
+    m_Target: 25.213852
     speed: 2
-    m_Value: 33.782722
+    m_Value: 25.213852
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -512,10 +512,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -960
-    m_HBaseRangeMax: 960
-    m_VBaseRangeMin: -540
-    m_VBaseRangeMax: 540
+    m_HBaseRangeMin: -561.7778
+    m_HBaseRangeMax: 561.7778
+    m_VBaseRangeMin: -316
+    m_VBaseRangeMax: 316
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -585,7 +585,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: a2e7fdff3c57ffffda78fffff8e6fffffce6fffffee6ffffe2e7fffff6f8ffff92f9ffff32faffff9efbffff00000000
+    m_ExpandedIDs: eca3ffffb0b1ffffe6cfffff9ed2ffffe2e1ffff08faffff9efbfffff4ffffff00000000b22b0000bc2b0000c02b0000ee2c0000222d0000a8300000d830000034310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -647,19 +647,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes/Science Challenge/Graphics
+    - Assets/Scenes/Science Challenge/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes/Science Challenge/Graphics
+  - Assets/Scenes/Science Challenge/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Ben\Development\level-6-l6-group-7\Unity Project
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 439}
-    m_SelectedIDs: 502f0000
-    m_LastClickedID: 12112
-    m_ExpandedIDs: 00000000dc270000e4270000f8270000fa27000068280000ee280000662900007c2900007e2900008c290000942900009a290000f02900008c2b00004a2f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 407}
+    m_SelectedIDs: c6290000
+    m_LastClickedID: 10694
+    m_ExpandedIDs: 00000000e0270000e8270000fc270000fe27000072280000ae280000fc280000742900008a2900008c2900009a290000a2290000a8290000002a0000322b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -687,7 +687,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc270000e4270000f8270000fa27000068280000ee280000662900007c2900007e2900008c290000942900009a290000f02900008c2b0000
+    m_ExpandedIDs: 00000000e0270000e8270000fc270000fe27000072280000ae280000fc280000742900008a2900008c2900009a290000a2290000a8290000002a0000322b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,18 +718,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000042260000282600008826000092260000ce2600008c260000382a00006e36000056280000f428000088290000ba2900007e2f0000762f00007a2f000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ScienceChallenge
+      m_OriginalName: ScienceChallenge
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13460
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:

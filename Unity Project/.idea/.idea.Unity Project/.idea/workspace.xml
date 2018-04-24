@@ -12,31 +12,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StickerBoardBackButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="374">
+              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
-                <marker date="1524568460786" expanded="true" signature="6:41" ph="..." />
-                <marker date="1524568460786" expanded="true" signature="81:477" ph="{...}" />
-                <marker date="1524568460786" expanded="true" signature="154:475" ph="{...}" />
-                <marker date="1524568460786" expanded="true" signature="197:470" ph="{...}" />
+                <marker date="1524574618869" expanded="false" signature="6:101" ph="..." />
+                <marker date="1524574618869" expanded="true" signature="128:1768" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="172:1766" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="1188:1196" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="1223:1517" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="1557:1703" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="1568:1699" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="1599:1672" ph="{...}" />
+                <marker date="1524574618869" expanded="true" signature="1721:1763" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenuMusicInitiator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/MenuMusicInitiator.cs">
+      <file leaf-file-name="StickerSelection.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/StickerSelection.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
-                <marker date="1516194129864" expanded="true" signature="46:323" ph="{...}" />
-                <marker date="1516194129864" expanded="true" signature="98:321" ph="{...}" />
-                <marker date="1516194129864" expanded="true" signature="125:316" ph="{...}" />
-                <marker date="1516194129864" expanded="true" signature="239:311" ph="{...}" />
+                <marker date="1516194129916" expanded="false" signature="6:40" ph="..." />
+                <marker date="1516194129916" expanded="true" signature="67:3016" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="119:3014" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="807:3008" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="1088:1671" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="1165:1657" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="1742:2334" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="1819:2320" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="2405:2997" ph="{...}" />
+                <marker date="1516194129916" expanded="true" signature="2482:2983" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScienceChallenge.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceChallenge.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+              <folding>
+                <marker date="1524579015377" expanded="true" signature="6:163" ph="..." />
+                <marker date="1524579015377" expanded="true" signature="210:1839" ph="{...}" />
+                <marker date="1524579015377" expanded="true" signature="720:776" ph="{...}" />
+                <marker date="1524579015377" expanded="true" signature="799:1835" ph="{...}" />
+                <marker date="1524579015377" expanded="true" signature="852:1190" ph="{...}" />
+                <marker date="1524579015377" expanded="true" signature="1610:1832" ph="{...}" />
+                <marker date="1524579015377" expanded="true" signature="1661:1828" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StickerBoardBackButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <marker date="1524568460786" expanded="false" signature="6:41" ph="..." />
+                <marker date="1524568460786" expanded="true" signature="81:477" ph="{...}" />
+                <marker date="1524568460786" expanded="true" signature="154:475" ph="{...}" />
+                <marker date="1524568460786" expanded="true" signature="197:470" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,16 +162,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PhotoFrame.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PhotoFrame.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <marker date="1524572438944" expanded="true" signature="6:40" ph="..." />
                 <marker date="1524572438944" expanded="true" signature="84:301" ph="{...}" />
                 <marker date="1524572438944" expanded="true" signature="130:299" ph="{...}" />
                 <marker date="1524572438944" expanded="true" signature="230:293" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChimpButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/ChimpButtonPressedEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1524568460661" expanded="false" signature="6:41" ph="..." />
+                <marker date="1524568460661" expanded="true" signature="88:440" ph="{...}" />
+                <marker date="1524568460661" expanded="true" signature="163:438" ph="{...}" />
+                <marker date="1524568460661" expanded="true" signature="216:432" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -146,66 +205,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GorillaButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs">
+      <file leaf-file-name="DifficultyButtonPressedEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            <state relative-caret-position="352">
+              <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
-                <marker date="1524568460676" expanded="false" signature="6:67" ph="..." />
-                <marker date="1524568460676" expanded="true" signature="114:1091" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="191:1089" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="225:809" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="738:799" ph="{...}" />
-                <marker date="1524568460676" expanded="true" signature="865:1083" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathOrangutanChallenge.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Math Orangutan Challenge/Scripts/MathOrangutanChallenge.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="96" column="13" lean-forward="false" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
-              <folding>
-                <marker date="1524568460739" expanded="false" signature="6:172" ph="..." />
-                <marker date="1524568460739" expanded="true" signature="223:4561" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="281:4559" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="775:2465" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1094:1663" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1326:1431" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1452:1649" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="1680:1947" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2005:2089" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2185:2365" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2513:2734" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="2798:3071" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="3105:4553" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="3675:3714" ph="/* 2 * 2 = 4 ... */" />
-                <marker date="1524568460739" expanded="true" signature="3800:4311" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="3996:4164" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="4062:4146" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="4205:4297" ph="{...}" />
-                <marker date="1524568460739" expanded="true" signature="4429:4543" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChimpAdditionAnswerButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAdditionAnswerButtonPressedEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-              <folding>
-                <marker date="1524568460723" expanded="false" signature="6:203" ph="..." />
-                <marker date="1524568460723" expanded="true" signature="250:1360" ph="{...}" />
-                <marker date="1524568460723" expanded="true" signature="325:1358" ph="{...}" />
-                <marker date="1524568460723" expanded="true" signature="471:1355" ph="{...}" />
-                <marker date="1524568460723" expanded="true" signature="555:597" ph="{...}" />
-                <marker date="1524568460723" expanded="true" signature="646:689" ph="{...}" />
-                <marker date="1524568460723" expanded="true" signature="835:1350" ph="{...}" />
+                <marker date="1524568460676" expanded="false" signature="6:108" ph="..." />
+                <marker date="1524568460676" expanded="true" signature="155:2019" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="233:2017" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="286:547" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="297:480" ph="/* foreach (Transform child in transform) ... */" />
+                <marker date="1524568460676" expanded="true" signature="603:2011" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="1075:1226" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="1343:1491" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="1614:1765" ph="{...}" />
+                <marker date="1524568460676" expanded="true" signature="1812:2001" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -230,19 +245,10 @@
     </replaceStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/OrangutanButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyBackButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/ButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/Sticker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAdditionAnswerButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/Ladybird.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/Difficulty.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAddition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Orangutan Challenge/Scripts/MathOrangutanChallenge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/DraggableObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/ChimpButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Chimp Challenge/Scripts/EnglishChimpQuestion.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/DropdownSign.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Chimp Challenge/Scripts/Banana.cs" root0="FORCE_HIGHLIGHTING" />
@@ -257,31 +263,40 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Gorilla Challenge/Scripts/EnglishGorillaQuestions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Chimp Challenge/Scripts/EnglishChimpQuestions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Chimp Challenge/Scripts/EnglishChimpChallenge.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Orangutan Challenge/Scripts/EnglishOrangutanQuestions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Gorilla Challenge/Scripts/MathGorillaChallenge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/StickerSprites.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/ExitButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceChallenge.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/SubjectColourOverlay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/SceneTransitioner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/MenuMusicInitiator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/Shuffler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/OrangutanButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/ButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/Sticker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/GorillaButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAdditionAnswerButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/Ladybird.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAddition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/ChimpButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Orangutan Challenge/Scripts/EnglishOrangutanQuestions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/English Orangutan Challenge/Scripts/EnglishOrangutanChallenge.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerSlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/MusicPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/EnglishButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/ScienceButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/SubjectColourOverlay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/DontDestroyMe.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/SceneTransitioner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/MenuMusicInitiator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/Colours.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/General/Scripts/Shuffler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/SubjectButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/MathButtonPressedEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/General/Scripts/Chimp.cs" />
         <option value="$PROJECT_DIR$/Assets/General/Scripts/ChallengeSubject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultySelectionOverlay.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/EnglishButtonPressedEvent.cs" />
@@ -326,12 +341,13 @@
         <option value="$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Math Chimp Challenge/Scripts/ChimpAdditionAnswerButtonPressedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Math Orangutan Challenge/Scripts/MathOrangutanChallenge.cs" />
-        <option value="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Auto Letterbox/ForceCameraRatio.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/DemoQuestionThing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceQuestion.cs" />
+        <option value="$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceChallenge.cs" />
       </list>
     </option>
   </component>
@@ -372,54 +388,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Unity Project (2 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Unity Project (2 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scenes" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Unity Project (2 projects)" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assembly-CSharp" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Assets" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="General" />
-              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scripts" />
               <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -575,12 +543,12 @@
       <workItem from="1518526097743" duration="12305000" />
       <workItem from="1518617642162" duration="3239000" />
       <workItem from="1518698329998" duration="7503000" />
-      <workItem from="1524568976448" duration="4531000" />
+      <workItem from="1524568976448" duration="5926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108809000" />
+    <option name="totallyTimeSpent" value="110204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -630,7 +598,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultySelectionOverlay.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Reward/Scripts/StickerSelection.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Shuffler.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/StickerSelection.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/Sticker.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -777,13 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/ChimpButtonPressedEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -891,25 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <marker date="1524568460676" expanded="false" signature="6:108" ph="..." />
-            <marker date="1524568460676" expanded="true" signature="155:2019" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="233:2017" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="286:547" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="297:480" ph="/* foreach (Transform child in transform) ... */" />
-            <marker date="1524568460676" expanded="true" signature="603:2011" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="1075:1226" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="1343:1491" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="1614:1765" ph="{...}" />
-            <marker date="1524568460676" expanded="true" signature="1812:2001" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Math Gorilla Challenge/Scripts/MathGorillaChallenge.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -977,27 +911,6 @@
             <marker date="1524568460739" expanded="true" signature="4062:4146" ph="{...}" />
             <marker date="1524568460739" expanded="true" signature="4205:4297" ph="{...}" />
             <marker date="1524568460739" expanded="true" signature="4429:4543" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <marker date="1524568460786" expanded="true" signature="6:41" ph="..." />
-            <marker date="1524568460786" expanded="true" signature="81:477" ph="{...}" />
-            <marker date="1524568460786" expanded="true" signature="154:475" ph="{...}" />
-            <marker date="1524568460786" expanded="true" signature="197:470" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1123,13 +1036,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/PhotoFrame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <marker date="1524572438944" expanded="true" signature="6:40" ph="..." />
             <marker date="1524572438944" expanded="true" signature="84:301" ph="{...}" />
             <marker date="1524572438944" expanded="true" signature="130:299" ph="{...}" />
             <marker date="1524572438944" expanded="true" signature="230:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/ChimpButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1524568460661" expanded="false" signature="6:41" ph="..." />
+            <marker date="1524568460661" expanded="true" signature="88:440" ph="{...}" />
+            <marker date="1524568460661" expanded="true" signature="163:438" ph="{...}" />
+            <marker date="1524568460661" expanded="true" signature="216:432" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Difficulty Selection/Scripts/DifficultyButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <marker date="1524568460676" expanded="false" signature="6:108" ph="..." />
+            <marker date="1524568460676" expanded="true" signature="155:2019" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="233:2017" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="286:547" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="297:480" ph="/* foreach (Transform child in transform) ... */" />
+            <marker date="1524568460676" expanded="true" signature="603:2011" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="1075:1226" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="1343:1491" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="1614:1765" ph="{...}" />
+            <marker date="1524568460676" expanded="true" signature="1812:2001" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Sticker Board/Scripts/StickerBoardBackButtonPressedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <marker date="1524568460786" expanded="false" signature="6:41" ph="..." />
+            <marker date="1524568460786" expanded="true" signature="81:477" ph="{...}" />
+            <marker date="1524568460786" expanded="true" signature="154:475" ph="{...}" />
+            <marker date="1524568460786" expanded="true" signature="197:470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1524574618869" expanded="false" signature="6:101" ph="..." />
+            <marker date="1524574618869" expanded="true" signature="128:1768" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="172:1766" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="1188:1196" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="1223:1517" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="1557:1703" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="1568:1699" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="1599:1672" ph="{...}" />
+            <marker date="1524574618869" expanded="true" signature="1721:1763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/StickerSelection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <marker date="1516194129916" expanded="false" signature="6:40" ph="..." />
+            <marker date="1516194129916" expanded="true" signature="67:3016" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="119:3014" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="807:3008" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="1088:1671" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="1165:1657" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="1742:2334" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="1819:2320" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="2405:2997" ph="{...}" />
+            <marker date="1516194129916" expanded="true" signature="2482:2983" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceChallenge.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <marker date="1524579015377" expanded="true" signature="6:163" ph="..." />
+            <marker date="1524579015377" expanded="true" signature="210:1839" ph="{...}" />
+            <marker date="1524579015377" expanded="true" signature="720:776" ph="{...}" />
+            <marker date="1524579015377" expanded="true" signature="799:1835" ph="{...}" />
+            <marker date="1524579015377" expanded="true" signature="852:1190" ph="{...}" />
+            <marker date="1524579015377" expanded="true" signature="1610:1832" ph="{...}" />
+            <marker date="1524579015377" expanded="true" signature="1661:1828" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -38,3 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Math Orangutan Challenge/Math Orangutan Challenge.unity
     guid: 28097296f6caa644982073800d0eaf3f
+  - enabled: 1
+    path: Assets/Scenes/Science Challenge/Science Challenge.unity
+    guid: 88ba85356992ed54a90e68eb9d213221
