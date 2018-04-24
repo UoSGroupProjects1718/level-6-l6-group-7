@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 19565557}
   - component: {fileID: 19565556}
   - component: {fileID: 19565555}
+  - component: {fileID: 19565558}
   m_Layer: 5
   m_Name: Photo
   m_TagString: Untagged
@@ -171,7 +172,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -188,13 +189,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: photoFramePressed
-        m_Mode: 2
+      - m_Target: {fileID: 19565558}
+        m_MethodName: PerformAction
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1401416055}
-          m_ObjectArgumentAssemblyTypeName: Scenes.Science_Challenge.Scripts.PhotoFrame,
-            Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -221,7 +221,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 104c9693a86e45444a91205a12021e28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dcbeed2c79f020840835d69c4a18a35a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -235,6 +235,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 19565553}
+--- !u!114 &19565558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19565553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7489942202d22f949a071c7bb14fd166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timesPressable: 1
+  _photoFrame: {fileID: 1401416055}
+  _scienceChallenge: {fileID: 1053650973}
 --- !u!1 &51555110
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,6 +356,7 @@ GameObject:
   - component: {fileID: 297697336}
   - component: {fileID: 297697335}
   - component: {fileID: 297697334}
+  - component: {fileID: 297697338}
   m_Layer: 5
   m_Name: Photo
   m_TagString: Untagged
@@ -371,7 +386,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -388,13 +403,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: photoFramePressed
-        m_Mode: 2
+      - m_Target: {fileID: 297697338}
+        m_MethodName: PerformAction
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1669141554}
-          m_ObjectArgumentAssemblyTypeName: Scenes.Science_Challenge.Scripts.PhotoFrame,
-            Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -421,7 +435,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 104c9693a86e45444a91205a12021e28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 68eb710ace3433a47800a1cecacddecf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -453,6 +467,95 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 375, y: 295}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &297697338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 297697333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7489942202d22f949a071c7bb14fd166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timesPressable: 1
+  _photoFrame: {fileID: 1669141554}
+  _scienceChallenge: {fileID: 1053650973}
+--- !u!1 &392452094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 392452095}
+  - component: {fileID: 392452097}
+  - component: {fileID: 392452096}
+  m_Layer: 5
+  m_Name: Body Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &392452095
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392452094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 908219783}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -350}
+  m_SizeDelta: {x: 1100, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &392452096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392452094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5eb09bbd21b43c7438642b55b82c9d10, type: 3}
+    m_FontSize: 52
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 256
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: More than 100 billion bananas are eaten every year in the world, making
+    them the fourth most popular agricultural product.
+--- !u!222 &392452097
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392452094}
 --- !u!1 &396925719
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,6 +567,7 @@ GameObject:
   - component: {fileID: 396925723}
   - component: {fileID: 396925722}
   - component: {fileID: 396925721}
+  - component: {fileID: 396925724}
   m_Layer: 5
   m_Name: Photo
   m_TagString: Untagged
@@ -511,7 +615,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -528,13 +632,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: photoFramePressed
-        m_Mode: 2
+      - m_Target: {fileID: 396925724}
+        m_MethodName: PerformAction
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 2141149898}
-          m_ObjectArgumentAssemblyTypeName: Scenes.Science_Challenge.Scripts.PhotoFrame,
-            Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -561,7 +664,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 104c9693a86e45444a91205a12021e28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7709d62e13219cd4d86aa3c002e847df, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -575,6 +678,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396925719}
+--- !u!114 &396925724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396925719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7489942202d22f949a071c7bb14fd166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timesPressable: 1
+  _photoFrame: {fileID: 2141149898}
+  _scienceChallenge: {fileID: 1053650973}
 --- !u!1 &483349131
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +929,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 908219783}
+  - component: {fileID: 908219785}
+  - component: {fileID: 908219784}
   m_Layer: 5
   m_Name: Ground Sign
   m_TagString: Untagged
@@ -831,6 +950,7 @@ RectTransform:
   m_Children:
   - {fileID: 884321061}
   - {fileID: 1709338489}
+  - {fileID: 392452095}
   m_Father: {fileID: 51555114}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -839,6 +959,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &908219784
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 908219782}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dcc1e4c8d63d03d4d8a5ea1503004b99, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &908219785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 908219782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d758f0e07515b64cbe5dd49fe4e4261, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _headingText: {fileID: 1709338490}
+  _bodyText: {fileID: 392452096}
 --- !u!1 &920482840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,14 +1165,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fe46dc8fd034b64b8d054ff14604d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chimpQuestions: []
+  _chimpQuestions:
+  - {fileID: 11400000, guid: 4641a5dcc5a49d54ebd834a1500c0ee5, type: 2}
+  - {fileID: 11400000, guid: 9587410c3d04c91459c04f34e89a6f80, type: 2}
+  - {fileID: 11400000, guid: 94fb9ed3f879f9a46982d14d17597fbc, type: 2}
+  - {fileID: 11400000, guid: a4596aad371ee6a44a8bfe4d57661c09, type: 2}
+  - {fileID: 11400000, guid: b1c9e4093c8096842afdd4d0e19e0f23, type: 2}
+  - {fileID: 11400000, guid: 0fe41fee6e0309e45b375e18821efeec, type: 2}
+  - {fileID: 11400000, guid: 12cf1e5f518e9f746b3252af3b4412eb, type: 2}
+  - {fileID: 11400000, guid: b9e395f3d8530ec4b92138c3f94bdc34, type: 2}
+  - {fileID: 11400000, guid: c8519b4391b6df341b4754abd0399be7, type: 2}
+  - {fileID: 11400000, guid: 9b0411d10a89ca04b9d78c0727928873, type: 2}
   _gorillaQuestions: []
   _orangutanQuestions: []
   _photoFrames:
   - {fileID: 2141149898}
   - {fileID: 1401416055}
   - {fileID: 1669141554}
-  _questionText: {fileID: 1709338490}
+  _groundSign: {fileID: 908219785}
+  _acCorrectAnswer: {fileID: 8300000, guid: 1ea3e9ca64e1eb34db94f107a84f8f99, type: 3}
+  _acIncorrectAnswer: {fileID: 8300000, guid: 22659b3ff645469459ed566497115183, type: 3}
 --- !u!1 &1168375656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +1411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 19565555}
+  _frame: {fileID: 1014293370}
 --- !u!1 &1669141553
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 297697334}
+  _frame: {fileID: 920482842}
 --- !u!224 &1669141555
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1308,7 +1472,7 @@ GameObject:
   - component: {fileID: 1709338491}
   - component: {fileID: 1709338490}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Heading Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1329,8 +1493,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -313}
-  m_SizeDelta: {x: 1125, y: 225}
+  m_AnchoredPosition: {x: 0, y: -231}
+  m_SizeDelta: {x: 1100, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1709338490
 MonoBehaviour:
@@ -1358,13 +1522,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 1
     m_MaxSize: 256
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUESTION TEXT QUESTION TEXT QUESTION TEXT?
+  m_Text: QUESTION 1 OF 3
 --- !u!222 &1709338491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1548,3 +1712,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _button: {fileID: 396925721}
+  _frame: {fileID: 1253182775}

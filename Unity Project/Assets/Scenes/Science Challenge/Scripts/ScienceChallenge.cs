@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using General.Scripts;
 using Scenes.Science_Challenge.Scripts;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class ScienceChallenge : MonoBehaviour
 {
@@ -13,7 +15,10 @@ public class ScienceChallenge : MonoBehaviour
 
 	[SerializeField] private List<PhotoFrame> _photoFrames;
 
-	[SerializeField] private Text _questionText;
+	[SerializeField] private GroundSign _groundSign;
+	
+	[SerializeField] private AudioClip _acCorrectAnswer;
+	[SerializeField] private AudioClip _acIncorrectAnswer;
 	
 	private GameManager _gameManager;
 	
@@ -24,10 +29,25 @@ public class ScienceChallenge : MonoBehaviour
 	private void Start()
 	{
 		_gameManager = GameManager.Instance;
-		Setup();
+		SetupChallenge();
 	}
 
-	private void Setup()
+	private void SetChallengeNumberHeadingText()
+	{
+		if (_gameManager.ActiveChallengeNumber == null || _gameManager.ActiveChallengeNumber == 0)
+		{
+			_gameManager.ActiveChallengeNumber = 1;
+		}
+		
+		_groundSign.SetHeadingText($"Challenge {_gameManager.ActiveChallengeNumber} of {_gameManager.ChallengesPerSet}");
+	}
+
+	private void SetQuestionText()
+	{
+		_groundSign.SetBodyText(_activeQuestion.Question);
+	}
+
+	private void ObtainRandomQuestion()
 	{
 		switch (_gameManager.ActiveChallengeDifficulty)
 		{
@@ -43,9 +63,10 @@ public class ScienceChallenge : MonoBehaviour
 		}
 		
 		_activeQuestion = _activeQuestionSet[Random.Range(0, _activeQuestionSet.Count)];
+	}
 
-		_questionText.text = _activeQuestion.Question;
-        
+	private void SetupPhotoFrames()
+	{    
 		_correctAnswerPhotoFrame = _photoFrames[Random.Range(0, _photoFrames.Count)];
 		_correctAnswerPhotoFrame.SetPhoto(_activeQuestion.CorrectAnswer);
 
@@ -59,6 +80,60 @@ public class ScienceChallenge : MonoBehaviour
 				photoFrame.SetPhoto(incorectPhotos[randomIndex]);
 				incorectPhotos.RemoveAt(randomIndex);
 			}
+		}
+	}
+	
+	private void SetupChallenge()
+	{
+		ObtainRandomQuestion();
+		SetChallengeNumberHeadingText();
+		SetQuestionText();
+		SetupPhotoFrames();
+	}
+
+	private IEnumerator CorrectTransition()
+	{
+		_groundSign.TransitionText("Correct! Did you know?...", _activeQuestion.Facts[Random.Range(0, _activeQuestion.Facts.Count)]);
+		yield return new WaitForSeconds(5.0f);
+		if (_gameManager.ActiveChallengeNumber == _gameManager.ChallengesPerSet)
+		{
+			FindObjectOfType<SceneTransitioner>().TransitionToScene("Sticker Reward");
+		}
+		else
+		{
+			_gameManager.ActiveChallengeNumber++;
+			FindObjectOfType<SceneTransitioner>().TransitionToScene("Science Challenge");
+		}
+	}
+
+	private void CorrectAnswer(PhotoFrame photoFrame)
+	{
+		photoFrame.HighlightCorrect();
+		AudioSource.PlayClipAtPoint(_acCorrectAnswer, Vector3.zero);
+		StartCoroutine(CorrectTransition());
+	}
+
+	private void IncorrectAnswer(PhotoFrame photoFrame)
+	{
+		photoFrame.HighlightIncorrect();
+		AudioSource.PlayClipAtPoint(_acIncorrectAnswer, Vector3.zero);
+		FindObjectOfType<SceneTransitioner>().TransitionToScene("Science Challenge");
+	}
+
+	public void OnPhotoFrameTapped(PhotoFrame photoFrame)
+	{
+		for (var i = 0; i < _photoFrames.Count; i++)
+		{
+			_photoFrames[i].SetInteractable(false);
+		}
+		
+		if (photoFrame == _correctAnswerPhotoFrame)
+		{
+			CorrectAnswer(photoFrame);
+		}
+		else
+		{
+			IncorrectAnswer(photoFrame);
 		}
 	}
 	
