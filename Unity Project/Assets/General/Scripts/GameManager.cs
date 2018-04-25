@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
+using Scenes.Science_Challenge.Scripts;
 using UnityEngine;
 
 namespace General.Scripts
@@ -24,9 +25,7 @@ namespace General.Scripts
 		public int? ActiveChallengeNumber = null;
 		public bool TutorialRequired = false;
 
-		private void Start()
-		{
-		}
+		public List<ScienceQuestion> CompletedScienceQuestions = new List<ScienceQuestion>();
 		
 		private void Update()
 		{

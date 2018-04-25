@@ -61,8 +61,20 @@ public class ScienceChallenge : MonoBehaviour
 				_activeQuestionSet = new List<ScienceQuestion>(_orangutanQuestions);
 				break;
 		}
+
+		if (_gameManager.CompletedScienceQuestions.Count == _activeQuestionSet.Count)
+		{
+			_gameManager.CompletedScienceQuestions.Clear();
+		}
 		
-		_activeQuestion = _activeQuestionSet[Random.Range(0, _activeQuestionSet.Count)];
+		do
+		{
+			var randomQuestion = _activeQuestionSet[Random.Range(0, _activeQuestionSet.Count)];
+			if (!_gameManager.CompletedScienceQuestions.Contains(randomQuestion))
+			{
+				_activeQuestion = randomQuestion;
+			}
+		} while (_activeQuestion == null);
 	}
 
 	private void SetupPhotoFrames()
@@ -97,6 +109,7 @@ public class ScienceChallenge : MonoBehaviour
 		yield return new WaitForSeconds(5.0f);
 		if (_gameManager.ActiveChallengeNumber == _gameManager.ChallengesPerSet)
 		{
+			_gameManager.CompletedScienceQuestions.Clear();
 			FindObjectOfType<SceneTransitioner>().TransitionToScene("Sticker Reward");
 		}
 		else
@@ -110,6 +123,7 @@ public class ScienceChallenge : MonoBehaviour
 	{
 		photoFrame.HighlightCorrect();
 		AudioSource.PlayClipAtPoint(_acCorrectAnswer, Vector3.zero);
+		_gameManager.CompletedScienceQuestions.Add(_activeQuestion);
 		StartCoroutine(CorrectTransition());
 	}
 
