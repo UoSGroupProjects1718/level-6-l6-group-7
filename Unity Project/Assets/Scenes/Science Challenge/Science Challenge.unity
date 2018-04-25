@@ -1176,7 +1176,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b9e395f3d8530ec4b92138c3f94bdc34, type: 2}
   - {fileID: 11400000, guid: c8519b4391b6df341b4754abd0399be7, type: 2}
   - {fileID: 11400000, guid: 9b0411d10a89ca04b9d78c0727928873, type: 2}
-  _gorillaQuestions: []
+  _gorillaQuestions:
+  - {fileID: 11400000, guid: 5baddb58f1496be4aacbbdcba07ec7c0, type: 2}
+  - {fileID: 11400000, guid: 5b743975b4b362f4ebdd30747bfbd042, type: 2}
+  - {fileID: 11400000, guid: 5a8618634b67d924780bd26e520b33ae, type: 2}
+  - {fileID: 11400000, guid: 7c28d24af6f879544b0914ee9b7b3154, type: 2}
+  - {fileID: 11400000, guid: aa78fa1c0ac35d94b823f33ebec042ce, type: 2}
+  - {fileID: 11400000, guid: edeb3df2c84639847b2b056c23b02f17, type: 2}
+  - {fileID: 11400000, guid: 9e9ee20dde76a0b42b17d0ffe4d59fa8, type: 2}
+  - {fileID: 11400000, guid: af332f4514dd98e43bc56292cc88272a, type: 2}
+  - {fileID: 11400000, guid: ea4d977e3870fc043b8bff5145a13d1b, type: 2}
+  - {fileID: 11400000, guid: 0807b9942650df04185e4e72d828dee2, type: 2}
   _orangutanQuestions: []
   _photoFrames:
   - {fileID: 2141149898}
