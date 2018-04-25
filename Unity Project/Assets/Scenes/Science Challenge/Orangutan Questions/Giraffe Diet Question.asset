@@ -17,4 +17,4 @@ MonoBehaviour:
   CorrectAnswer: {fileID: 21300000, guid: 71b3b5b80d7522b48a5bd41a8f4d8539, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 0a7d1cd0ae543114db89f0867de83e8a, type: 3}
-  - {fileID: 21300000, guid: 71b3b5b80d7522b48a5bd41a8f4d8539, type: 3}
+  - {fileID: 21300000, guid: a9c803ddf46e91147b4fa64007bb93b9, type: 3}
