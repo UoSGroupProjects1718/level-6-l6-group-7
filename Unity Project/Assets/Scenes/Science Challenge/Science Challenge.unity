@@ -221,7 +221,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: dcbeed2c79f020840835d69c4a18a35a, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -435,7 +435,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 68eb710ace3433a47800a1cecacddecf, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -537,19 +537,19 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5eb09bbd21b43c7438642b55b82c9d10, type: 3}
-    m_FontSize: 52
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 256
+    m_MaxSize: 42
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: More than 100 billion bananas are eaten every year in the world, making
-    them the fourth most popular agricultural product.
+  m_Text: Body Text Body Text Body Text Body Text Body Text Body Text Body Text Body
+    Text Body Text.
 --- !u!222 &392452097
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -664,7 +664,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7709d62e13219cd4d86aa3c002e847df, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1528,7 +1528,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUESTION 1 OF 3
+  m_Text: HEADING TEXT
 --- !u!222 &1709338491
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ScienceChallenge.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ScienceChallenge.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceChallenge.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+              <caret line="113" column="9" lean-forward="false" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
               <folding>
                 <marker date="1524657224645" expanded="false" signature="6:212" ph="..." />
                 <marker date="1524657224645" expanded="true" signature="259:4231" ph="{...}" />
@@ -41,6 +41,19 @@
                 <marker date="1524657224645" expanded="true" signature="4039:4090" ph="{...}" />
                 <marker date="1524657224645" expanded="true" signature="4139:4177" ph="{...}" />
                 <marker date="1524657224645" expanded="true" signature="4184:4224" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Colours.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Colours.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <marker date="1524568460661" expanded="true" signature="45:395" ph="{...}" />
+                <marker date="1524568460661" expanded="true" signature="79:393" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,20 +138,6 @@
                 <marker date="1524582538217" expanded="true" signature="550:611" ph="{...}" />
                 <marker date="1524582538217" expanded="true" signature="653:716" ph="{...}" />
                 <marker date="1524582538217" expanded="true" signature="772:836" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MathButtonPressedEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scenes/Subject Selection/Scripts/MathButtonPressedEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding>
-                <marker date="1524568460801" expanded="false" signature="6:87" ph="..." />
-                <marker date="1524568460801" expanded="true" signature="152:655" ph="{...}" />
-                <marker date="1524568460801" expanded="true" signature="321:653" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -547,12 +546,12 @@
       <workItem from="1518617642162" duration="3239000" />
       <workItem from="1518698329998" duration="7503000" />
       <workItem from="1524568976448" duration="10901000" />
-      <workItem from="1524656910193" duration="448000" />
+      <workItem from="1524656910193" duration="1059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115627000" />
+    <option name="totallyTimeSpent" value="116238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,13 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Colours.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1024,7 +1016,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/Science Challenge/Scripts/ScienceChallenge.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <caret line="113" column="9" lean-forward="false" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
           <folding>
             <marker date="1524657224645" expanded="false" signature="6:212" ph="..." />
             <marker date="1524657224645" expanded="true" signature="259:4231" ph="{...}" />
@@ -1049,6 +1041,17 @@
             <marker date="1524657224645" expanded="true" signature="4039:4090" ph="{...}" />
             <marker date="1524657224645" expanded="true" signature="4139:4177" ph="{...}" />
             <marker date="1524657224645" expanded="true" signature="4184:4224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/General/Scripts/Colours.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1524568460661" expanded="true" signature="45:395" ph="{...}" />
+            <marker date="1524568460661" expanded="true" signature="79:393" ph="{...}" />
           </folding>
         </state>
       </provider>
