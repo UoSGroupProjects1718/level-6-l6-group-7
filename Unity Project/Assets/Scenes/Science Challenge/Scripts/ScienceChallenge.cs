@@ -9,6 +9,9 @@ using Random = UnityEngine.Random;
 
 public class ScienceChallenge : MonoBehaviour
 {
+	private const double WordsPerMinute = 150;
+	private const int SecondsInMinute = 60;
+	
 	[SerializeField] private List<ScienceQuestion> _chimpQuestions;
 	[SerializeField] private List<ScienceQuestion> _gorillaQuestions;
 	[SerializeField] private List<ScienceQuestion> _orangutanQuestions;
@@ -105,8 +108,28 @@ public class ScienceChallenge : MonoBehaviour
 
 	private IEnumerator CorrectTransition()
 	{
-		_groundSign.TransitionText("Correct! Did you know?...", _activeQuestion.Facts[Random.Range(0, _activeQuestion.Facts.Count)]);
-		yield return new WaitForSeconds(5.0f);
+		var randomFact = _activeQuestion.Facts[Random.Range(0, _activeQuestion.Facts.Count)];
+		
+		var wordDelimiters = new char[] {' ', '\r', '\n' };
+		var wordsInFact = randomFact.Split(wordDelimiters,StringSplitOptions.RemoveEmptyEntries).Length;
+
+		
+		//                         
+
+		int readTime = (int)(wordsInFact / (WordsPerMinute / SecondsInMinute));
+		var headingText = "Correct! Did you know?...";
+		
+		_groundSign.TransitionText(headingText + $"                        ({readTime})", randomFact);
+		yield return new WaitForSeconds(1.0f);
+		
+		for (var i = readTime; i > 0; i--)
+		{
+			_groundSign.SetHeadingText(headingText + $"                        ({i})");
+			yield return new WaitForSeconds(1.0f);
+		}
+		
+		_groundSign.SetHeadingText(headingText + "                        (0)");
+		
 		if (_gameManager.ActiveChallengeNumber == _gameManager.ChallengesPerSet)
 		{
 			_gameManager.CompletedScienceQuestions.Clear();
