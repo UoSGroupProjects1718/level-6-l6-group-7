@@ -13,11 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the parrot?
   Facts:
-  - There are around 372 different parrot species.
+  - There are around 372 different species of parrots.
   - Parrots are the only birds that can eat with their feet.
   - Some parrots can live for over 80 years.
-  - Parrots are believed to be one of the most intelligent bird species.
-  - Some parrots are able to imitate human voice.
+  - Parrots are believed to be one of the most intelligent birds on earth.
+  - Some parrots are able to imitate human voices.
   CorrectAnswer: {fileID: 21300000, guid: 921af671ba19ac24db88ca5fd6426426, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

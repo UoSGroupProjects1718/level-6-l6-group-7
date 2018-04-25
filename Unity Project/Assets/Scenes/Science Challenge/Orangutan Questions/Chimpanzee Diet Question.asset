@@ -14,7 +14,7 @@ MonoBehaviour:
   Question: What kind of food do chimpanzees eat?
   Facts:
   - Chimps are omnivores but are primarily vegetarian and eat more than 300 different
-    items, mostly fruits, berries, leaves, and seeds but also bird eggs and chicks,
+    items, mostly fruits, berries, leaves and seeds but also bird eggs and chicks,
     many insects.
   CorrectAnswer: {fileID: 21300000, guid: a9c803ddf46e91147b4fa64007bb93b9, type: 3}
   IncorrectAnswers:

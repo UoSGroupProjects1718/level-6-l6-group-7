@@ -104,6 +104,10 @@ public class ScienceChallenge : MonoBehaviour
 		SetChallengeNumberHeadingText();
 		SetQuestionText();
 		SetupPhotoFrames();
+		if (_gameManager.ActiveChallengeNumber == null || _gameManager.ActiveChallengeNumber == 1)
+		{
+			GameObject.Find("Soundtrack 2").GetComponent<MusicPlayer>().StartMusic(2.0f);
+		}
 	}
 
 	private IEnumerator CorrectTransition()
@@ -130,8 +134,10 @@ public class ScienceChallenge : MonoBehaviour
 		
 		_groundSign.SetHeadingText(headingText + "                        (0)");
 		
+		
 		if (_gameManager.ActiveChallengeNumber == _gameManager.ChallengesPerSet)
 		{
+			GameObject.Find("Soundtrack 2").GetComponent<MusicPlayer>().StopMusic(2.0f);
 			_gameManager.CompletedScienceQuestions.Clear();
 			FindObjectOfType<SceneTransitioner>().TransitionToScene("Sticker Reward");
 		}

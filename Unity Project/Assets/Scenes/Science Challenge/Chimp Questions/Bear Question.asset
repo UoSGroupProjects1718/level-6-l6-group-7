@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the bear?
   Facts:
-  - There are eight different kinds of bears.
-  - Most bear hibernate during the winter.
-  - Bears are most closely related to seals.
-  - Bears live as long as 30 years in the wild.
-  - Only the polar bear is a true carnivore.
+  - There are eight different species of bear in the world.
+  - Bears can go for more than 100 days without eating or drinking.
+  - Bears are more closely related to seals than any other animal.
+  - Bears can live for up to 30 years in the wild.
   CorrectAnswer: {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 73a6d95db056e4f49907b8d59473bc84, type: 3}

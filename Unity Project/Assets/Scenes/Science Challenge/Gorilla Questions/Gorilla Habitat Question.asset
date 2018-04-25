@@ -13,8 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find a gorilla?
   Facts:
-  - Gorillas live in Central Africa, near the equator in tropical and subtropical
-    forests.
+  - Gorillas live near the equator in Central Africa in tropical and subtropical forests.
   CorrectAnswer: {fileID: 21300000, guid: 5fde4e3a4b78f8a408c67ea75601a772, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 5a73ed0b0641284468f53eba49221e49, type: 3}

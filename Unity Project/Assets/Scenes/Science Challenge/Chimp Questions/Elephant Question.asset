@@ -13,11 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the elephant?
   Facts:
-  - Elephants cover themselves in sand so they don't get sunbunrt.
-  - Elephants are the only other animals, besides humans to have chins.
-  - Elephants can smell water from 12 miles away.
-  - Elephant mothers are pregnant for 2 years.
-  - The average lifespan of an elephant is from 50 to 70 years.
+  - Elephants sometimes cover themselves in sand so they don't get sunburnt.
+  - Elephants are the only other animals besides humans to have chins.
+  - Elephants have an impressive sense of smell, and can smell water from up to 12
+    miles away.
+  - Elephant mothers are pregnant for 2 whole years.
+  - The average elephant lives for between 50 and 70 years.
   CorrectAnswer: {fileID: 21300000, guid: a84ba496ab2780d4cb5abd52e16ca855, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

@@ -13,8 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find a parrot?
   Facts:
-  - Most parrots live in habitats such as woodlands, subtropical and tropical rain
-    forests and alpine forests.
+  - Most parrots live in habitats such as woodlands, rain forests and alpine forests.
   CorrectAnswer: {fileID: 21300000, guid: 808fab4d74a25914a89cddbc2a640aae, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 49588432a27da2246a95c96efbb29488, type: 3}

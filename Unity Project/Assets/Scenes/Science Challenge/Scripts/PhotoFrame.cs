@@ -20,11 +20,13 @@ namespace Scenes.Science_Challenge.Scripts
         public void HighlightCorrect()
         {
             _frame.color = ColorCorrect;
+            GetComponent<Animator>().SetBool("Wobble", true);
         }
 
         public void HighlightIncorrect()
         {
             _frame.color = ColorIncorrect;
+            GetComponent<Animator>().SetBool("Wobble", true);
         }
 
         public void SetInteractable(bool interactable)

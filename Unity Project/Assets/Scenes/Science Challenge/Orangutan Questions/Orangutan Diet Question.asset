@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: What kind of food do orangutans eat?
   Facts:
-  - Orangutans are omnivores eating mainly fruit, bark, leaves & termites.
+  - Orangutans are omnivores eating mainly fruit, bark, leaves and termites.
   CorrectAnswer: {fileID: 21300000, guid: a9c803ddf46e91147b4fa64007bb93b9, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 71b3b5b80d7522b48a5bd41a8f4d8539, type: 3}

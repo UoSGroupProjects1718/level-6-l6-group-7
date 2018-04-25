@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find an eagle?
   Facts:
-  - Eagles build their nests on high cliffs or in tall trees often near water.
+  - Eagles build their nests on high cliffs or in tall trees close to water.
   CorrectAnswer: {fileID: 21300000, guid: 1f88a285a7b6a6c4fbdfe7c6c796dbef, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 67a5bffbcc3516a4f90b26222b6e9ce3, type: 3}

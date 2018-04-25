@@ -14,10 +14,11 @@ MonoBehaviour:
   Question: Can you identify the chimpanzee?
   Facts:
   - Chimps are not monkeys, they are infact apes.
-  - Chimps chew up leaves to make sponges to drink water.
+  - Chimps chew up leaves to make sponges to help them drink water.
   - Chimps sleep in nests made of leaves.
-  - Chimpanzee mothers carry their babies on their back for 4 years or more.
-  - Some chimpanzees have even been able to learn basic human sign language.
+  - Chimpanzee mothers carry their babies on their back for around 4 years.
+  - Chimpanzees are very clever animals, some have even been able to learn basic human
+    sign language.
   CorrectAnswer: {fileID: 21300000, guid: 73a6d95db056e4f49907b8d59473bc84, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

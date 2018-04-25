@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the Rhinoceros?
   Facts:
-  - There are five different species of rhinoceros.
-  - The name rhinoceros means nose horn.
-  - Rhinoceros are herbivores. A group of rhinoceros is called a crash.
-  - Rhinos can sprint around 28mph faster than humans at 23mph.
-  - Rhinoceroses can sprint at up to 28mph.
+  - There are five different species of rhinoceroses.
+  - The name rhinoceros means "nose horn".
+  - A group of rhinoceroses are called a crash.
+  - Rhinoceroses can sprint up to 28mph.
   CorrectAnswer: {fileID: 21300000, guid: 96b3781d6484ee944b9ea87bdc794bd1, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the orangutan?
   Facts:
-  - Orangutans live on only two islands, Borneo and northern Sumatra.
-  - In captive environments, orangutans can live over 60 years.
+  - Orangutans have an enormous arm span that stretches up to 7 feet.
+  - In captive environments, orangutans can live for over 60 years.
   - "Orangutan literally means \u201Cperson of the forest\u201D."
   - Like humans, orangutans have opposable thumbs.
-  - Orangutans have an enormous arm span streching up to 7 feet.
   CorrectAnswer: {fileID: 21300000, guid: bc8564cc7585d4d47921aa5ce44e7286, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

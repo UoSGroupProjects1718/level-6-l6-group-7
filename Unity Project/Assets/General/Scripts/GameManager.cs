@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
+using Scenes.English_Chimp_Challenge.Scripts;
 using Scenes.Science_Challenge.Scripts;
 using UnityEngine;
 
@@ -26,15 +27,8 @@ namespace General.Scripts
 		public bool TutorialRequired = false;
 
 		public List<ScienceQuestion> CompletedScienceQuestions = new List<ScienceQuestion>();
-		
-		private void Update()
-		{
-			var math = Math.DifficultiesComplete.Aggregate("Math: ", (current, difficulty) => current + (difficulty + ", "));
-			var english = English.DifficultiesComplete.Aggregate("English: ", (current, difficulty) => current + (difficulty + ", "));
-			Debug.Log(math);
-			Debug.Log(english);
-		}
-		
+		public List<EnglishChimpQuestion> CompletedEnglishChimpQuestions = new List<EnglishChimpQuestion>();
+
 		public static GameManager Instance
 		{
 			get

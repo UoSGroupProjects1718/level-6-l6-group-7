@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: What kind of food do eagles eat?
   Facts:
-  - Eagles are carnivores eating mainly fish and small to medium size mammals such
-    as rabbits, squirrels.
+  - Eagles are carnivores, they mostly eat fish and small to medium size mammals such
+    as rabbits and squirrels.
   CorrectAnswer: {fileID: 21300000, guid: 0a7d1cd0ae543114db89f0867de83e8a, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: a9c803ddf46e91147b4fa64007bb93b9, type: 3}

@@ -13,12 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the snake?
   Facts:
-  - "Snakes can\u2019t bite food so have to swallow it whole."
+  - "Snakes can\u2019t bite food, they have to swallow it whole."
   - "Snakes don\u2019t have eyelids."
   - There are around 3000 different species of snake.
-  - Snakes have internal ears but not external ones.
-  - Snakes are found on every continent of the world except Antarctica.
-  - Snakes smell with their tongue.
+  - Snakes ears are on the inside of their heads.
+  - Snakes are found on every continent in the world except Antarctica.
+  - Snakes smell with their tongues.
   - Snakes used in snake charming performances respond to movement, not sound.
   CorrectAnswer: {fileID: 21300000, guid: dcbeed2c79f020840835d69c4a18a35a, type: 3}
   IncorrectAnswers:

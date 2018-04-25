@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the eagle?
   Facts:
-  - Eagles build their nests on high cliffs or in tall trees.
   - There are over 60 different species of eagle.
   - "Bald eagles aren\u2019t actually bald."
-  - Eagle is one of the largest and most powerful birds of prey.
-  - Eagles vision is among the sharpest of any animal, some seeing upto 2 miles away.
+  - Eagles are one of the largest and most powerful birds of prey in the world.
+  - Eagles have incredible vision, and can see prey up to 2 miles away.
   CorrectAnswer: {fileID: 21300000, guid: faa04c2ae9f9f194eae2681aac3def59, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

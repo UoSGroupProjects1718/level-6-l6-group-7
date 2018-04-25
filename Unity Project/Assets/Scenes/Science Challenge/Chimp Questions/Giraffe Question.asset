@@ -13,11 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Can you identify the giraffe?
   Facts:
-  - The giraffe is the tallest living terrestrial animal.
-  - There are 9 giraffe subspecies.
-  - Giraffes do not have horns they have ossicones.
+  - Giraffes are the tallest living animals that live on the land.
+  - There are 9 different species of giraffe.
+  - Giraffes do not actually have horns, they have ossicones.
   - A group of giraffes is called a tower.
-  - Giraffes only need to sleep 5 - 30 minutes a day.
+  - Giraffes only need to sleep for 5 to 30 minutes a day.
   CorrectAnswer: {fileID: 21300000, guid: 68eb710ace3433a47800a1cecacddecf, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find a chimpanzee?
   Facts:
-  - Chimpanzees are found exclusively in Africa, primarily in the tropical rainforests.
+  - Chimpanzees are found exclusively in Africa, mostly in tropical rainforests.
   CorrectAnswer: {fileID: 21300000, guid: 5e04a0c9d739e5f4eb5a6685131d1c6d, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 808fab4d74a25914a89cddbc2a640aae, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find a rhinoceros?
   Facts:
-  - Rhinos live in Africa and Asia. Their preferred habitat are savannas or dense
+  - Rhinos live in Africa and Asia. Their preferred habitats are savannahs or dense
     forests in tropical and subtropical regions.
   CorrectAnswer: {fileID: 21300000, guid: bb5683ff1542788479ae3dc147d03344, type: 3}
   IncorrectAnswers:

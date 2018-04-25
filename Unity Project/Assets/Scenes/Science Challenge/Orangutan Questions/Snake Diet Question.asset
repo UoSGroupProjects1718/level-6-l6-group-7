@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: What kind of food do snakes eat?
   Facts:
-  - All snakes are carnivorous and eat rodents and other mammals, birds, reptiles,
-    fish, insects and eggs.
+  - All snakes are carnivorous and eat things such as rodents, birds, reptiles, fish,
+    insects and eggs.
   CorrectAnswer: {fileID: 21300000, guid: 0a7d1cd0ae543114db89f0867de83e8a, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 71b3b5b80d7522b48a5bd41a8f4d8539, type: 3}

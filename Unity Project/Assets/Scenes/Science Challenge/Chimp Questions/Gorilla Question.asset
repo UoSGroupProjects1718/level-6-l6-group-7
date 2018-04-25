@@ -14,10 +14,8 @@ MonoBehaviour:
   Question: Can you identify the gorilla?
   Facts:
   - Gorillas have fingernails just like humans.
-  - The lifespan of silverback is typically more than 12 years.
-  - Gorillas mostly live in the swamps, marshes, and montane forests.
   - "A gorilla can live for 40 \u2013 50 years."
-  - Gorillas are herbivores.
+  - Gorillas mostly live in swamps, marshes, and tropical forests.
   CorrectAnswer: {fileID: 21300000, guid: 7709d62e13219cd4d86aa3c002e847df, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 47584fee434098147b229d9c6f6a723b, type: 3}

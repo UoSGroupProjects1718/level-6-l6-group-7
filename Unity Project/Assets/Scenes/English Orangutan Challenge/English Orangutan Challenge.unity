@@ -1257,7 +1257,7 @@ Prefab:
     - target: {fileID: 114922755234229962, guid: f63961987ff671944b32c46cf4a98979,
         type: 2}
       propertyPath: m_Text
-      value: PUT THE PINEAPPLE IN THE BASKET WITH THE SIMILAR WORD
+      value: PUT THE PINEAPPLE IN THE BASKET WITH THE SIMILAR WORD (SYNONYM)
       objectReference: {fileID: 0}
     - target: {fileID: 224514568384241496, guid: f63961987ff671944b32c46cf4a98979,
         type: 2}

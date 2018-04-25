@@ -65,7 +65,7 @@ namespace Scenes.Math_Orangutan_Challenge.Scripts
         {
             GameObject.Find("Soundtrack").GetComponent<MusicPlayer>().StopMusic(2.0f);
             yield return new WaitForSeconds(2.0f);
-            GameObject.Destroy(GameObject.Find("Soundtrack"));
+            Destroy(GameObject.Find("Soundtrack"));
         }
 
         private IEnumerator EnableTransitions(float pauseTime)
@@ -79,7 +79,7 @@ namespace Scenes.Math_Orangutan_Challenge.Scripts
         {
             StartCoroutine(EnableTransitions(GameObject.Find("Game Manager").GetComponent<GameManager>().TutorialRequired ? 4.5f : 0.0f));            
             
-            var giraffeLeftSpots = Random.Range(2, 6);
+            var giraffeLeftSpots = Random.Range(1, 2) == 1 ? 5 : 4;
             _giraffeLeft.SetVisibleSpots(giraffeLeftSpots);
         
             var cheetahRightSpots = Random.Range(2, 11);

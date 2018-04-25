@@ -10,10 +10,6 @@ namespace Scenes.Difficulty_Selection.Scripts
     {        
         protected void DisableButton()
         {
-//            foreach (Transform child in transform)
-//            {
-//                child.GetComponent<Image>().color = GetComponent<Button>().colors.disabledColor;
-//            }
             GetComponent<Button>().interactable = false;
         }
         

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find a snake?
   Facts:
-  - Snakes are found throughout the world except Antarctica, Iceland, Ireland, Greenland
+  - Snakes are found all over the world except Antarctica, Iceland, Ireland, Greenland
     and New Zealand.
   CorrectAnswer: {fileID: 21300000, guid: 5a73ed0b0641284468f53eba49221e49, type: 3}
   IncorrectAnswers:

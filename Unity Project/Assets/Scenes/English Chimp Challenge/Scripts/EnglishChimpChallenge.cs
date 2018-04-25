@@ -54,10 +54,12 @@ namespace Scenes.English_Chimp_Challenge.Scripts
                 if (GameManager.Instance.ActiveChallengeNumber == GameManager.Instance.ChallengesPerSet)
                 {
                     _dropdownSign.Dropdown(0.0f, 1.5f, "WELL DONE!");
+                    GameManager.Instance.CompletedEnglishChimpQuestions.Clear();
                 }
                 else
                 {
                     _dropdownSign.Dropdown(0.0f, 1.5f, $"CORRECT! ({GameManager.Instance.ActiveChallengeNumber}/{GameManager.Instance.ChallengesPerSet})");
+                    GameManager.Instance.CompletedEnglishChimpQuestions.Add(_activeQuestion);
                 }
             }
             else
@@ -96,8 +98,19 @@ namespace Scenes.English_Chimp_Challenge.Scripts
         {
             _dropdownSign = GameObject.Find("Dropdown Sign").GetComponent<DropdownSign>();
             
-            // Obtain a random question from those predefined in EnglishChimpQuestions.Questions.
-            _activeQuestion = EnglishChimpQuestions.Questions[Random.Range(0, EnglishChimpQuestions.Questions.Count)];  
+            if (GameManager.Instance.CompletedEnglishChimpQuestions.Count == EnglishChimpQuestions.Questions.Count)
+            {
+                GameManager.Instance.CompletedEnglishChimpQuestions.Clear();
+            }
+		
+            do
+            {
+                var randomQuestion = EnglishChimpQuestions.Questions[Random.Range(0, EnglishChimpQuestions.Questions.Count)];
+                if (!GameManager.Instance.CompletedEnglishChimpQuestions.Contains(randomQuestion))
+                {
+                    _activeQuestion = randomQuestion;
+                }
+            } while (_activeQuestion == null);
 
             // Obtain all possible answers to the question.
             var possibleAnswers = new List<string>() { _activeQuestion.SimilarWord, _activeQuestion.IncorrectAnswers[0],

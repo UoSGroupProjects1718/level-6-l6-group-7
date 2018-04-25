@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: What kind of food do elephants eat?
   Facts:
-  - Elephants are herbivores which means they eat leaves, shrubs, fruits, bark, herbs,
+  - Elephants are herbivores which means they eat leaves, shrubs, fruits, bark, herbs
     and grasses.
   CorrectAnswer: {fileID: 21300000, guid: 71b3b5b80d7522b48a5bd41a8f4d8539, type: 3}
   IncorrectAnswers:
