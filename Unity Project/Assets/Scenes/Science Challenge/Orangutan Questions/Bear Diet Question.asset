@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fffbfb125e0ac34fa186d2e913c96d8, type: 3}
+  m_Name: Bear Diet Question
+  m_EditorClassIdentifier: 
+  Question: What kind of food do black bears eat?
+  Facts:
+  - Black bears are omnivorous, meaning they will eat a variety of things, including
+    both plants and meat. Their diet includes berries, meat, fish, insects, grass
+    and other succulent plants.
+  CorrectAnswer: {fileID: 21300000, guid: a9c803ddf46e91147b4fa64007bb93b9, type: 3}
+  IncorrectAnswers:
+  - {fileID: 21300000, guid: 71b3b5b80d7522b48a5bd41a8f4d8539, type: 3}
+  - {fileID: 21300000, guid: 0a7d1cd0ae543114db89f0867de83e8a, type: 3}
