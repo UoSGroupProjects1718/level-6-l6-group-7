@@ -21,7 +21,7 @@ namespace Scenes.English_Gorilla_Challenge.Scripts
             new EnglishChimpQuestion("BOY", "GIRL", new string[] {"MAN", "ADULT"}),
             new EnglishChimpQuestion("LIGHT", "HEAVY", new string[] {"BRIGHT", "BULB"}),
             new EnglishChimpQuestion("HARD", "SOFT", new string[] {"ROCK", "SPONGE"}),
-	        new EnglishChimpQuestion("lONG", "SHORT", new string[] {"TALL", "SMALL"}),
+	        new EnglishChimpQuestion("LONG", "SHORT", new string[] {"TALL", "SMALL"}),
             new EnglishChimpQuestion("RUDE", "POLITE", new string[] {"MAD", "HAPPY"}),
             new EnglishChimpQuestion("BUY", "SELL", new string[] {"GET", "WANT"}),
             new EnglishChimpQuestion("STOP", "START", new string[] {"MOVE", "HAULT"})			

@@ -14,7 +14,7 @@ MonoBehaviour:
   Question: Where could you find an elephant?
   Facts:
   - Grassland is one of elephants main habitats, they can also be found in the desert
-    of the Savannah, forest areas, where there are swamps, and everything in between.
+    of the savannah, forest areas, where there are swamps, and everything in between.
   CorrectAnswer: {fileID: 21300000, guid: a8c16c8d94e46364f8fa0a4c0f9d692a, type: 3}
   IncorrectAnswers:
   - {fileID: 21300000, guid: 49588432a27da2246a95c96efbb29488, type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: Where could you find a giraffe?
   Facts:
-  - Giraffes are native to Africa and their habitats include savannas, grasslands
+  - Giraffes are native to Africa and their habitats include savannahs, grasslands
     and open forests.
   CorrectAnswer: {fileID: 21300000, guid: 06a586e125a28444a959b686eeffc50b, type: 3}
   IncorrectAnswers:

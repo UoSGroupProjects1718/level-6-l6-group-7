@@ -14,7 +14,7 @@ namespace Scenes.English_Orangutan_Challenge.Scripts
 			new EnglishChimpQuestion("SHOUT", "YELL", new string[] {"FELL", "NOISE"}),
 			new EnglishChimpQuestion("HAPPY", "JOLLY", new string[] {"CLAP", "SAD"}),
 			new EnglishChimpQuestion("WALK", "STEP", new string[] {"TALK", "STOP"}),
-			new EnglishChimpQuestion("FOREST", "WOODS", new string[] {"FLOOR", "TEST"}),
+			new EnglishChimpQuestion("FOREST", "WOODS", new string[] {"FLOOR", "REST"}),
 			new EnglishChimpQuestion("ROPE", "STRING", new string[] {"COPE", "SING"}),
 			new EnglishChimpQuestion("CHIMP", "APE", new string[] {"LIMP", "TIGER"})
 		};
