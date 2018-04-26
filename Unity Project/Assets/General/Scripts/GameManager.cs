@@ -26,6 +26,8 @@ namespace General.Scripts
 		public int? ActiveChallengeNumber = null;
 		public bool TutorialRequired = false;
 
+		public bool CompletionHappened;
+
 		public List<ScienceQuestion> CompletedScienceQuestions = new List<ScienceQuestion>();
 		public List<EnglishChimpQuestion> CompletedEnglishChimpQuestions = new List<EnglishChimpQuestion>();
 

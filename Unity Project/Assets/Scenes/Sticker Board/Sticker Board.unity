@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 56738764}
   - component: {fileID: 56738763}
   - component: {fileID: 56738762}
+  - component: {fileID: 56738765}
   m_Layer: 5
   m_Name: Math Orangutan Sticker
   m_TagString: Untagged
@@ -304,6 +305,23 @@ MonoBehaviour:
   _subject: Math
   _difficulty: 2
   _sticker: {fileID: 21300000, guid: 9545e035bdf8e9445b512895cf03d3a1, type: 3}
+--- !u!95 &56738765
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 56738758}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &126714444
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,6 +335,7 @@ GameObject:
   - component: {fileID: 126714448}
   - component: {fileID: 126714449}
   - component: {fileID: 126714450}
+  - component: {fileID: 126714451}
   m_Layer: 5
   m_Name: Math Gorilla Sticker
   m_TagString: Untagged
@@ -495,6 +514,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &126714451
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 126714444}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &138394464
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +642,7 @@ GameObject:
   - component: {fileID: 308466005}
   - component: {fileID: 308466004}
   - component: {fileID: 308466003}
+  - component: {fileID: 308466006}
   m_Layer: 5
   m_Name: English Gorilla Sticker
   m_TagString: Untagged
@@ -784,6 +821,23 @@ MonoBehaviour:
   _subject: English
   _difficulty: 1
   _sticker: {fileID: 21300000, guid: 7f448b672b303634890b3b3b8ca6cd49, type: 3}
+--- !u!95 &308466006
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 308465999}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &383101127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1046,6 +1100,7 @@ GameObject:
   - component: {fileID: 573590066}
   - component: {fileID: 573590065}
   - component: {fileID: 573590064}
+  - component: {fileID: 573590067}
   m_Layer: 5
   m_Name: English Orangutan Sticker
   m_TagString: Untagged
@@ -1224,6 +1279,23 @@ MonoBehaviour:
   _subject: English
   _difficulty: 2
   _sticker: {fileID: 21300000, guid: 58d19c1325c57c04d91e21ca8216b0bd, type: 3}
+--- !u!95 &573590067
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573590060}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &597728436
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,6 +1514,7 @@ GameObject:
   - component: {fileID: 808559165}
   - component: {fileID: 808559167}
   - component: {fileID: 808559166}
+  - component: {fileID: 808559168}
   m_Layer: 0
   m_Name: Math Chimp Sticker
   m_TagString: Untagged
@@ -1700,6 +1773,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &808559168
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 808559160}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &830448013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1875,7 @@ GameObject:
   - component: {fileID: 957696323}
   - component: {fileID: 957696325}
   - component: {fileID: 957696324}
+  - component: {fileID: 957696326}
   m_Layer: 5
   m_Name: Science Orangutan Sticker
   m_TagString: Untagged
@@ -1963,6 +2054,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 400, y: 400}
   m_EdgeRadius: 0
+--- !u!95 &957696326
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957696319}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1086830824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1976,6 +2084,7 @@ GameObject:
   - component: {fileID: 1086830830}
   - component: {fileID: 1086830829}
   - component: {fileID: 1086830828}
+  - component: {fileID: 1086830831}
   m_Layer: 5
   m_Name: Science Chimp Sticker
   m_TagString: Untagged
@@ -2154,6 +2263,23 @@ MonoBehaviour:
   _subject: Science
   _difficulty: 0
   _sticker: {fileID: 21300000, guid: 9fab59f407d9af84c9b3c63018a8c408, type: 3}
+--- !u!95 &1086830831
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1086830824}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1286121078
 Prefab:
   m_ObjectHideFlags: 0
@@ -2234,6 +2360,7 @@ GameObject:
   - component: {fileID: 1368145372}
   - component: {fileID: 1368145374}
   - component: {fileID: 1368145373}
+  - component: {fileID: 1368145375}
   m_Layer: 5
   m_Name: Science Gorilla Sticker
   m_TagString: Untagged
@@ -2412,6 +2539,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 400, y: 400}
   m_EdgeRadius: 0
+--- !u!95 &1368145375
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368145368}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1499568737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2556,6 +2700,7 @@ GameObject:
   - component: {fileID: 1864313623}
   - component: {fileID: 1864313625}
   - component: {fileID: 1864313624}
+  - component: {fileID: 1864313626}
   m_Layer: 5
   m_Name: English Chimp Sticker
   m_TagString: Untagged
@@ -2734,6 +2879,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 400, y: 400}
   m_EdgeRadius: 0
+--- !u!95 &1864313626
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1864313619}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 94e1db0724da8504a8967c531238dc56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1871538795
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,3 +3338,55 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1973673759}
+--- !u!1 &2146109696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2146109698}
+  - component: {fileID: 2146109697}
+  m_Layer: 0
+  m_Name: CompletionReward
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2146109697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146109696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36087abfa5fbfcc48a02135d69468ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sfxSwish: {fileID: 8300000, guid: 47b3aeccb9e4c834fac22663419b7733, type: 3}
+  _sfxCheer: {fileID: 8300000, guid: 3325895dcfef9b249bb28e3ef81d0945, type: 3}
+  _stickerAnimators:
+  - {fileID: 808559168}
+  - {fileID: 126714451}
+  - {fileID: 56738765}
+  - {fileID: 1864313626}
+  - {fileID: 308466006}
+  - {fileID: 573590067}
+  - {fileID: 1086830831}
+  - {fileID: 1368145375}
+  - {fileID: 957696326}
+--- !u!4 &2146109698
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146109696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4709054, y: -1.5163226, z: -10.066406}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
