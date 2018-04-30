@@ -38,6 +38,14 @@ namespace General.Scripts
 				if(_instance == null)
 				{
 					_instance = GameObject.FindObjectOfType<GameManager>();
+					_instance.Science.DifficultiesComplete.Add(Difficulty.Chimp);
+					_instance.Science.DifficultiesComplete.Add(Difficulty.Gorilla);
+					_instance.English.DifficultiesComplete.Add(Difficulty.Chimp);
+					_instance.English.DifficultiesComplete.Add(Difficulty.Gorilla);
+					_instance.English.DifficultiesComplete.Add(Difficulty.Orangutan);
+					_instance.Math.DifficultiesComplete.Add(Difficulty.Chimp);
+					_instance.Math.DifficultiesComplete.Add(Difficulty.Gorilla);
+					_instance.Math.DifficultiesComplete.Add(Difficulty.Orangutan);
 				}
 				return _instance;
 			}
